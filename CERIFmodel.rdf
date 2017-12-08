@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/cerif/model#"
+     xml:base="https://w3id.org/cerif/model"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/cerif/model"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfAbstract -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfAbstr">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+		<rdfs:label>cfAbstract</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfBibliographicNote -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfBiblNote">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:comment xml:lang="en">miscellaneous extra information</rdfs:comment>
+		<rdfs:label>cfBibliographicNote</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfEdition -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfEdition">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The edition of a book, long form (such as &quot;first&quot; or &quot;second&quot;).</rdfs:comment>
+		<rdfs:label>cfEdition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfEndPage -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfEndPage">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+		<rdfs:label>cfEndPage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfInternationalStandardBookNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfISBN">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <owl:deprecated xml:lang="en">use the Federated Identifier</owl:deprecated>
+		<rdfs:label>cfInternationalStandardBookNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfInternationalStandardSerialNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfISSN">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <owl:deprecated xml:lang="en">use the Federated Identifier</owl:deprecated>
+		<rdfs:label>cfInternationalStandardSerialNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfIssue -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfIssue">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+		<rdfs:label>cfIssue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfKeywords -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfKeyw">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+		<rdfs:label>cfKeywords</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfNameAbbreviation -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfNameAbbrev">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:comment xml:lang="en">a formal abbreviation system used for service provision</rdfs:comment>
+		<rdfs:label>cfNameAbbreviation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfNum">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The number of a journal, magazine, or technical report, if applicable. (Most publications have a volume, but no number field.)</rdfs:comment>
+		<rdfs:label>cfNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResPublDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfResPublDate">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">The minimum: year of publication (or, if unpublished, the year of creation). In CERIF the datatype of PublicationDate has been specified as a date. That means at the application, the often not available month and day values have to be filled by the application with default values. A string value would not allow required computation related to years.</rdfs:comment>
+		<rdfs:label>cfResultPublicationDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResPublId -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfResPublId">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+		<rdfs:label>cfResultPublicationIdentifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfSeries -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfSeries">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The series of books the book was published in ...</rdfs:comment>
+		<rdfs:label>cfSeries</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfStartPage -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfStartPage">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+		<rdfs:label>cfStartPage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfSubtitle -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfSubtitle">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:comment xml:lang="en">The publication subtitle in a particular language.</rdfs:comment>
+		<rdfs:label>cfSubtitle</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfTitle -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfTitle">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:comment xml:lang="en">The publication title in a particular language.</rdfs:comment>
+		<rdfs:label>cfTitle</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfTotalPages -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfTotalPages">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The total number of pages.</rdfs:comment>
+		<rdfs:label>cfTotalPages</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfUniformResourceIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfURI">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+		<rdfs:label>cfUniformResourceIdentifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfVersionInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfVersInfo">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:comment xml:lang="en">a formal abbreviation system used for service provision</rdfs:comment>
+        <rdfs:label>cfVersionInfo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfVolume -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResPubl.cfVol">
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResPubl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The volume (book), a single book that is part of a collection.
+volume (journals), a bibliographic identifier.</rdfs:comment>
+        <rdfs:label>cfVolume</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResPubl -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#cfResPubl">
+        <rdfs:comment xml:lang="en">Collection of information records that, in combination, represent a full and up-to-date history of research or scholarly published outputs resulting from, or related to, the person&apos;s research activities.
+
+Definition Source: http://dictionary.casrai.org/research-personnel-profile/1.1.0/contributions/outputs/publications</rdfs:comment>
+        <rdfs:label>cfResultPublication</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
