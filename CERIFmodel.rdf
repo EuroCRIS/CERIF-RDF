@@ -1,12 +1,21 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/cerif/model#"
      xml:base="https://w3id.org/cerif/model"
+     xmlns:dct="http://purl.org/dc/terms/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://w3id.org/cerif/model"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">
+    <owl:Ontology rdf:about="https://w3id.org/cerif/model">
+        <rdfs:comment xml:lang="en">This document describes the CERIF data model.</rdfs:comment>
+        <vann:preferredNamespaceUri>https://w3id.org/cerif/model#</vann:preferredNamespaceUri>
+        <dct:creator>Laurent Remy</dct:creator>
+        <vann:preferredNamespacePrefix>cerif</vann:preferredNamespacePrefix>
+        <dct:creator>Jan Dvorak</dct:creator>
+    </owl:Ontology>
     
 
 
@@ -21,13 +30,93 @@
     
 
 
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
     <!-- https://w3id.org/cerif/model#physicalName -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/cerif/model#physicalName">
+        <rdfs:comment xml:lang="en">Physical name of the entity or attribute within the CERIF original data model.</rdfs:comment>
+        <rdfs:label xml:lang="en">Physical name</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical name of the entity or attribute within the CERIF original data model.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical name</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent.cfClassificationIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent.cfClassificationIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPatent"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:label>cfClassificationIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent.cfClassificationSchemeIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent.cfClassificationSchemeIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPatent"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdfs:label>cfClassificationSchemeIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassSchemeId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent.cfProjectIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent.cfProjectIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPatent"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:label>cfProjectIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfProjId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent.cfResultPatentIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent.cfResultPatentIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPatent"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfResultPatent"/>
+        <rdfs:label>cfResultPatentIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfResPatId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#objectProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#objectProperty">
+        <rdfs:comment xml:lang="en">Super-property of all object properties corresponding to attributer in the CERIF data model.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF object property</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:ObjectProperty>
     
 
 
@@ -42,21 +131,489 @@
     
 
 
-    <!-- https://w3id.org/cerif/model#cerifDataProperty -->
+    <!-- https://w3id.org/cerif/model#cfClassification.cfClassificationDefinition -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cerifDataProperty">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Super-property of all properties corresponding to attributer in the CERIF data model.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CERIF data property</rdfs:label>
-	</owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfClassificationDefinition">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:label>cfClassificationDefinition</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassDef</physicalName>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/cerif/model#cerifMultilingualProperty -->
+    <!-- https://w3id.org/cerif/model#cfClassification.cfClassificationDescription -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cerifMultilingualProperty">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a property as being part of the multilingual mechanism of CERIF. The ERM data model represent multilingual attributes using a specific entity for the attributes.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multilingual property</rdfs:label>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfClassificationDescription">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:label>cfClassificationDescription</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassDescr</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassification.cfClassificationExample -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfClassificationExample">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:label>cfClassificationExample</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassEx</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassification.cfClassificationIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfClassificationIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfClassificationIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassification.cfClassificationSchemeIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfClassificationSchemeIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfClassificationSchemeIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassSchemeId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassification.cfEndDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfEndDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfEndDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfEndDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassification.cfStartDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfStartDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfStartDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfStartDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassification.cfUniformResourceIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassification.cfUniformResourceIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfUniformResourceIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfURI</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassificationScheme.cfClassificationSchemeDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassificationScheme.cfClassificationSchemeDescription">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:label>cfClassificationSchemeDescription</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassSchemeDescr</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassificationScheme.cfClassificationSchemeIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassificationScheme.cfClassificationSchemeIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfClassificationSchemeIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassSchemeId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassificationScheme.cfClassificationSchemeName -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassificationScheme.cfClassificationSchemeName">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:label>cfClassificationSchemeName</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassSchemeName</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassificationScheme.cfUniformResourceIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfClassificationScheme.cfUniformResourceIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfUniformResourceIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfURI</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfAbstract -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfAbstract">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:comment xml:lang="en">A short description of the project activity and goals.</rdfs:comment>
+        <rdfs:label>cfAbstract</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfAbstr</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfAcronym -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfAcronym">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfAcronym</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfAcro</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfEndDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfEndDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">use the cfEndDate of an appropriate unary classification of this cfProject
+or an appropriate link between this cfProject and the project participant (cfOrganisationalUnit or cfPerson)</rdfs:comment>
+        <rdfs:label>cfEndDate</rdfs:label>
+        <vs:term_status>archaic</vs:term_status>
+        <physicalName>cfEndDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfKeywords -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfKeywords">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:label>cfKeywords</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfKeyw</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfProjectIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfProjectIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfProjectIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfProjId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfStartDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfStartDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">use the cfStartDate of an appropriate unary classification of this cfProject
+or an appropriate link between this cfProject and the project participant (cfOrganisationalUnit or cfPerson)</rdfs:comment>
+        <rdfs:label>cfStartDate</rdfs:label>
+        <vs:term_status>archaic</vs:term_status>
+        <physicalName>cfStartDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfTitle -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfTitle">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+        <rdfs:comment xml:lang="en">The project title in a particular language.</rdfs:comment>
+        <rdfs:label>cfTitle</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfTitle</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject.cfUniformResourceIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject.cfUniformResourceIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfUniformResourceIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfURI</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent.cfEndDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent.cfEndDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfEndDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfEndDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent.cfFraction -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent.cfFraction">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>cfFraction</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfFraction</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent.cfStartDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent.cfStartDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfStartDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfStartDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfClassificationIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfClassificationIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfClassificationIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfClassificationSchemeIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfClassificationSchemeIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfClassificationSchemeIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassSchemeId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfCopyright -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfCopyright">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfCopyright</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfCopyright</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfEndDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfEndDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfEndDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfEndDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfFraction -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfFraction">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>cfFraction</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfFraction</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfProjectIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfProjectIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfProjectIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfProjId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfResultPublicationIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfResultPublicationIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfResultPublicationIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfResPublId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication.cfStartDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication.cfStartDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_ResultPublication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfStartDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfStartDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResultPatent.cfApprovalDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent.cfApprovalDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfApprovalDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfApprovDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResultPatent.cfCountryCode -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent.cfCountryCode">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfCountryCode</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfCountryCode</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResultPatent.cfPatentNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent.cfPatentNumber">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfPatentNumber</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfPatentNum</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResultPatent.cfRegistrationDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent.cfRegistrationDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>cfRegistrationDate</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfRegistrDate</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResultPatent.cfResultPatentIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent.cfResultPatentIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfResultPatentIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfResPatId</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResultPatent.cfUniformResourceIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent.cfUniformResourceIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cfUniformResourceIdentifier</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfURI</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -64,11 +621,12 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfAbstract -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfAbstract">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifMultilingualProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:label>cfAbstract</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfAbstr</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAbstr</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -76,12 +634,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfBibliographicNote -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfBibliographicNote">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifMultilingualProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:comment xml:lang="en">miscellaneous extra information</rdfs:comment>
         <rdfs:label>cfBibliographicNote</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfBiblNote</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfBiblNote</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -89,12 +648,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfEdition -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfEdition">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>The edition of a book, long form (such as &quot;first&quot; or &quot;second&quot;).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The edition of a book, long form (such as &quot;first&quot; or &quot;second&quot;).</rdfs:comment>
         <rdfs:label>cfEdition</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfEdition</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfEdition</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -102,11 +662,12 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfEndPage -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfEndPage">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>cfEndPage</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfEndPage</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfEndPage</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -114,12 +675,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfInternationalStandardBookNumber -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfInternationalStandardBookNumber">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>cfInternationalStandardBookNumber</rdfs:label>
         <owl:deprecated xml:lang="en">use the Federated Identifier</owl:deprecated>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfISBN</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfISBN</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -127,12 +689,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfInternationalStandardSerialNumber -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfInternationalStandardSerialNumber">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>cfInternationalStandardSerialNumber</rdfs:label>
         <owl:deprecated xml:lang="en">use the Federated Identifier</owl:deprecated>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfISSN</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfISSN</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -140,11 +703,12 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfIssue -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfIssue">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>cfIssue</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfIssue</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfIssue</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -152,11 +716,12 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfKeywords -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfKeywords">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifMultilingualProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:label>cfKeywords</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfKeyw</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfKeyw</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -164,12 +729,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfNameAbbreviation -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfNameAbbreviation">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifMultilingualProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:comment xml:lang="en">a formal abbreviation system used for service provision</rdfs:comment>
         <rdfs:label>cfNameAbbreviation</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfNameAbbrev</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfNameAbbrev</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -177,12 +743,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfNumber -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfNumber">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">The number of a journal, magazine, or technical report, if applicable. (Most publications have a volume, but no number field.)</rdfs:comment>
         <rdfs:label>cfNumber</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfNum</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfNum</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -190,12 +757,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfResultPublicationDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfResultPublicationDate">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">The minimum: year of publication (or, if unpublished, the year of creation). In CERIF the datatype of PublicationDate has been specified as a date. That means at the application, the often not available month and day values have to be filled by the application with default values. A string value would not allow required computation related to years.</rdfs:comment>
         <rdfs:label>cfResultPublicationDate</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfResPublDate</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfResPublDate</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -203,11 +771,12 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfResultPublicationIdentifier -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfResultPublicationIdentifier">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>cfResultPublicationIdentifier</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfResPublId</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfResPublId</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -215,12 +784,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfSeries -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfSeries">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">The series of books the book was published in ...</rdfs:comment>
         <rdfs:label>cfSeries</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfSeries</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfSeries</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -228,11 +798,12 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfStartPage -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfStartPage">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>cfStartPage</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfStartPage</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfStartPage</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -240,12 +811,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfSubtitle -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfSubtitle">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifMultilingualProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:comment xml:lang="en">The publication subtitle in a particular language.</rdfs:comment>
         <rdfs:label>cfSubtitle</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfSubTitle</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfSubTitle</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -253,12 +825,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfTitle -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfTitle">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifMultilingualProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:comment xml:lang="en">The publication title in a particular language.</rdfs:comment>
         <rdfs:label>cfTitle</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfTitle</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfTitle</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -266,12 +839,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfTotalPages -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfTotalPages">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">The total number of pages.</rdfs:comment>
         <rdfs:label>cfTotalPages</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfTotalPages</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfTotalPages</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -279,11 +853,12 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfUniformResourceIdentifier -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfUniformResourceIdentifier">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>cfUniformResourceIdentifier</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfURI</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfURI</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -291,12 +866,13 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfVersionInfo -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfVersionInfo">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifMultilingualProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#multilingualProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:comment xml:lang="en">a formal abbreviation system used for service provision</rdfs:comment>
         <rdfs:label>cfVersionInfo</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfVersInfo</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfVersInfo</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -304,13 +880,35 @@
     <!-- https://w3id.org/cerif/model#cfResultPublication.cfVolume -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication.cfVolume">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#cerifDataProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">The volume (book), a single book that is part of a collection.
 volume (journals), a bibliographic identifier.</rdfs:comment>
         <rdfs:label>cfVolume</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfVol</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfVol</physicalName>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#dataProperty -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#dataProperty">
+        <rdfs:comment xml:lang="en">Super-property of all data properties corresponding to attributer in the CERIF data model.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF data property</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#multilingualProperty -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#multilingualProperty">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:comment xml:lang="en">Identifies a property as being part of the multilingual mechanism of CERIF. The ERM data model represent multilingual attributes using a specific entity for the attributes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Multilingual property</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
     </owl:DatatypeProperty>
     
 
@@ -326,14 +924,161 @@ volume (journals), a bibliographic identifier.</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#BaseEntity -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#BaseEntity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#Entity"/>
+        <rdfs:comment xml:lang="en">CERIF base entity is the superclass of all CERIF data model entities used to express the basic concepts of research activities, i.e. projects, persons and organisation units.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF base entity</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#Entity -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#Entity">
+        <rdfs:comment xml:lang="en">CERIF root entity is the superclass of all CERIF data model entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF root entity</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#Relationship -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#Relationship">
+        <rdfs:comment xml:lang="en">CERIF relationship is the superclass of all CERIF data model relationships.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF relationship</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#ResultEntity -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#ResultEntity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#Entity"/>
+        <rdfs:comment xml:lang="en">CERIF result entity is the superclass of all CERIF data model entities used to express results of the research activities.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF result entity</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#SemanticLayer -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#SemanticLayer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#Entity"/>
+        <rdfs:comment xml:lang="en">CERIF semantic layer is the superclass of all CERIF data model entities used to express the semantic layer of CERIF.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF semantic layer</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassification -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#cfClassification">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#SemanticLayer"/>
+        <rdfs:comment xml:lang="en">A concept to describe a characteristic of objects or to qualify relationships between objects or concepts. Classifications are organised into Classification Schemes: every Classification belongs to exactly one Classification Scheme.
+
+In CERIF a Classification usually specifies the type (e.g. &quot;Journal Article&quot; - http://purl.org/coar/resource_type/c_6501) or status (e.g. &quot;Approved&quot;) of an object, or some other category – most notably a subject heading (e.g. &quot;Analytical chemistry&quot;).
+Other Classification specify the type of relationship between two objects (e.g. &quot;Author&quot; between a Person and a Result Publication).</rdfs:comment>
+        <rdfs:label>cfClassification</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClass</physicalName>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfClassificationScheme -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#cfClassificationScheme">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#SemanticLayer"/>
+        <rdfs:comment xml:lang="en">A structured collection of Classifications (concepts).
+
+CERIF Classification Schemes can represent flat or hierarchical lists, taxonomies, thesauri, ontologies or any general arrangement of concepts.
+
+Examples of classification schemes include:
+- the OECD Fields of Science classification (https://unstats.un.org/unsd/EconStatKB/KnowledgebaseArticle10269.aspx) and
+- the COAR Resource Types controlled vocabulary (http://vocabularies.coar-repositories.org/documentation/resource_types/).
+Another example is the Person Output Contributions scheme from the OpenAIRE Guidelines for CRIS Managers 1.0 (https://doi.org/10.5281/zenodo.17065) that consists of the concepts of Author, Editor and Publisher.</rdfs:comment>
+        <rdfs:label>cfClassificationScheme</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfClassScheme</physicalName>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#cfProject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#BaseEntity"/>
+        <rdfs:comment xml:lang="en">A temporary endeavor undertaken to create a unique product, service or result.
+Source: the Project Management Institute, https://www.pmi.org/about/learn-about-pmi/what-is-project-management
+
+In the research information domain, one typically tracks:
+(1) research projects, where the result is an addition to the body of knowledge of the mankind,
+(2) technology development projects, where the result is a particular technology or product,
+(3) innovation projects, where the result is an improvement of a product or process, and
+(4) projects that create or enhance infrastructure for research, technology development or innovation.
+
+Depending on the scope one can also track finer levels of granularity: stages, work packages, sometimes even down to individual tasks. All such activities are also modelled using the Project entity and linked using the recursive link relationship.
+
+The Project entity only captures details of the project scope and plan. Information about the resources needed to execute the project such as the funding (i.e., the grants received), the people and organisations involved, the supporting infrastructures, the outputs produced, etc. is contained in separate entities (the Funding entity, the Person entity, the OrgUnit entity, the infrastructure entities, the result entities respectively) and is linked to the Project.</rdfs:comment>
+        <rdfs:label>cfProject</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfProj</physicalName>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPatent -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#cfProject_ResultPatent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#Relationship"/>
+        <rdfs:label>cfProject_ResultPatent</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfProj_ResPat</physicalName>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_ResultPublication -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#cfProject_ResultPublication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#Relationship"/>
+        <rdfs:label>cfProject_ResultPublication</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <physicalName>cfProj_ResPubl</physicalName>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfResultPatent -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#cfResultPatent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#ResultEntity"/>
+        <rdfs:comment xml:lang="en">A set of exclusive rights granted by a sovereign state to an inventor or assignee for a limited period of time in exchange for detailed public disclosure of an invention.
+Source: Wikipedia</rdfs:comment>
+        <rdfs:label>cfResultPatent</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfResPat</physicalName>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfResultPublication -->
 
     <owl:Class rdf:about="https://w3id.org/cerif/model#cfResultPublication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#ResultEntity"/>
         <rdfs:comment xml:lang="en">Collection of information records that, in combination, represent a full and up-to-date history of research or scholarly published outputs resulting from, or related to, the person&apos;s research activities.
 
 Definition Source: http://dictionary.casrai.org/research-personnel-profile/1.1.0/contributions/outputs/publications</rdfs:comment>
         <rdfs:label>cfResultPublication</rdfs:label>
-        <physicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cfResPubl</physicalName>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfResPubl</physicalName>
     </owl:Class>
 </rdf:RDF>
 
