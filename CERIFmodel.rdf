@@ -11,6 +11,7 @@
      xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">
     <owl:Ontology rdf:about="https://w3id.org/cerif/model">
         <rdfs:comment xml:lang="en">This document describes the CERIF data model.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This version is experimental.</rdfs:comment>
         <vann:preferredNamespaceUri>https://w3id.org/cerif/model#</vann:preferredNamespaceUri>
         <dct:creator>Laurent Remy</dct:creator>
         <vann:preferredNamespacePrefix>cerif</vann:preferredNamespacePrefix>
