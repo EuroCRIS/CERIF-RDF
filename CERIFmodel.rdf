@@ -76,6 +76,19 @@
     
 
 
+    <!-- https://w3id.org/cerif/model#Amount.cfCurrencyCode -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#Amount.cfCurrencyCode">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
+        <rdfs:label>cfCurrencyCode</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfCurrCode</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfCitation_Classification.cfCitationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfCitation_Classification.cfCitationIdentifier">
@@ -1356,6 +1369,19 @@ cfEquipment_PostAddress</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfEquipment_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfEquipment_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfEquipment_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfEquipment_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfEquipment_Funding.cfClassificationIdentifier">
@@ -1375,19 +1401,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfEquipment_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfEquipment_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfEquipment_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -1894,6 +1907,19 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
+    <!-- https://w3id.org/cerif/model#cfEvent_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfEvent_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfEvent_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfEvent_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfEvent_Funding.cfClassificationIdentifier">
@@ -1913,19 +1939,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfEvent_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfEvent_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfEvent_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -2432,6 +2445,19 @@ cfFacility_PostAddress</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfFacility_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFacility_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFacility_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfFacility_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFacility_Funding.cfClassificationIdentifier">
@@ -2451,19 +2477,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfFacility_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFacility_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFacility_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -3048,15 +3061,15 @@ cfFacility_Service</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfFunding.cfCurrencyCode -->
+    <!-- https://w3id.org/cerif/model#cfFunding.cfAmount -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding.cfCurrencyCode">
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding.cfAmount">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
         <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
+        <physicalName>cfAmount</physicalName>
     </owl:ObjectProperty>
     
 
@@ -3146,6 +3159,19 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
+    <!-- https://w3id.org/cerif/model#cfFunding_Indicator.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Indicator.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding_Indicator"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfFunding_Indicator.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Indicator.cfClassificationIdentifier">
@@ -3165,19 +3191,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfFunding_Indicator.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Indicator.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding_Indicator"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -3208,6 +3221,19 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
+    <!-- https://w3id.org/cerif/model#cfFunding_Measurement.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Measurement.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding_Measurement"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfFunding_Measurement.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Measurement.cfClassificationIdentifier">
@@ -3227,19 +3253,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfFunding_Measurement.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Measurement.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding_Measurement"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -3685,6 +3698,19 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
+    <!-- https://w3id.org/cerif/model#cfMedium_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfMedium_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfMedium_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfMedium_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfMedium_Funding.cfClassificationIdentifier">
@@ -3704,19 +3730,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfMedium_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfMedium_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfMedium_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -3930,15 +3943,15 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit.cfCurrencyCode -->
+    <!-- https://w3id.org/cerif/model#cfOrganisationUnit.cfTurnover -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit.cfCurrencyCode">
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit.cfTurnover">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfTurnover</rdfs:label>
         <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
+        <physicalName>cfTurnover</physicalName>
     </owl:ObjectProperty>
     
 
@@ -4185,19 +4198,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfEquipmentIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfEquipmentIdentifier">
@@ -4263,6 +4263,19 @@ cfOrganisationUnit_Measurement</rdfs:comment>
         <rdfs:label>cfOrganisationUnitIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfOrgUnitId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -4363,20 +4376,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:comment xml:lang="en">The currency of calculated budget for expertise services of the organisation.</rdfs:comment>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfExpertiseAndSkillsIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfExpertiseAndSkillsIdentifier">
@@ -4427,6 +4426,20 @@ cfOrganisationUnit_Measurement</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:comment xml:lang="en">The currency of calculated budget for expertise services of the organisation.</rdfs:comment>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfClassificationIdentifier">
@@ -4446,19 +4459,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Facility"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -4531,6 +4531,32 @@ cfOrganisationUnit_Measurement</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Facility"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfClassificationIdentifier">
@@ -4550,19 +4576,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -5193,19 +5206,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfOrganisationUnitIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfOrganisationUnitIdentifier">
@@ -5239,6 +5239,19 @@ cfOrganisationUnit_Measurement</rdfs:comment>
         <rdfs:label>cfOrganisationUnitIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfOrgUnitId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -5395,19 +5408,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Service"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfOrganisationUnitIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfOrganisationUnitIdentifier">
@@ -5441,6 +5441,19 @@ cfOrganisationUnit_Measurement</rdfs:comment>
         <rdfs:label>cfOrganisationUnitIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfOrgUnitId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Service"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -5939,19 +5952,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_Equipment.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Equipment.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Equipment"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_Equipment.cfEquipmentIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Equipment.cfEquipmentIdentifier">
@@ -6022,6 +6022,19 @@ cfPerson_Measurement</rdfs:comment>
         <rdfs:label>cfPersonIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfPersId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfPerson_Equipment.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Equipment.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Equipment"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -6127,19 +6140,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfExpertiseAndSkillsIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfExpertiseAndSkillsIdentifier">
@@ -6195,6 +6195,19 @@ cfPerson_Measurement</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfPerson_Facility.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Facility.cfClassificationIdentifier">
@@ -6214,19 +6227,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfPerson_Facility.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Facility.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Facility"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -6304,6 +6304,32 @@ cfPerson_Measurement</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfPerson_Facility.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Facility.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Facility"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfPerson_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfPerson_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Funding.cfClassificationIdentifier">
@@ -6323,19 +6349,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfPerson_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -7269,19 +7282,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_ResultProduct.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ResultProduct.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_ResultProduct"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_ResultProduct.cfPersonIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ResultProduct.cfPersonIdentifier">
@@ -7320,6 +7320,19 @@ cfPerson_Measurement</rdfs:comment>
         <rdfs:label>cfPersonIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfPersId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfPerson_ResultProduct.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ResultProduct.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_ResultProduct"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -7481,19 +7494,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_Service.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Service.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Service"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_Service.cfPersonIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Service.cfPersonIdentifier">
@@ -7532,6 +7532,19 @@ cfPerson_Measurement</rdfs:comment>
         <rdfs:label>cfPersonIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfPersId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfPerson_Service.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Service.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Service"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -7865,19 +7878,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfProject_Equipment.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Equipment.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Equipment"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfProject_Equipment.cfEquipmentIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Equipment.cfEquipmentIdentifier">
@@ -7906,6 +7906,19 @@ cfEquipment_PostAddress</rdfs:comment>
         <rdfs:label>cfEquipmentIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfEquipId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_Equipment.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Equipment.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Equipment"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -8037,19 +8050,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfProject_Facility.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Facility.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Facility"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfProject_Facility.cfFacilityIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Facility.cfFacilityIdentifier">
@@ -8077,6 +8077,19 @@ cfFacility_PostAddress</rdfs:comment>
         <rdfs:label>cfFacilityIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfFacilId</physicalName>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cerif/model#cfProject_Facility.cfPrice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Facility.cfPrice">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Facility"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -8115,6 +8128,19 @@ cfProject_Measurement</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfProject_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfProject_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Funding.cfClassificationIdentifier">
@@ -8134,19 +8160,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfProject_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -9056,15 +9069,15 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
     
 
 
-    <!-- https://w3id.org/cerif/model#cfProject_Service.cfCurrencyCode -->
+    <!-- https://w3id.org/cerif/model#cfProject_Service.cfPrice -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Service.cfCurrencyCode">
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfProject_Service.cfPrice">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Service"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfPrice</rdfs:label>
         <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
+        <physicalName>cfPrice</physicalName>
     </owl:ObjectProperty>
     
 
@@ -9409,6 +9422,19 @@ cfResultPatent_Measurement
     
 
 
+    <!-- https://w3id.org/cerif/model#cfResultPatent_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfResultPatent_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent_Funding.cfClassificationIdentifier">
@@ -9428,19 +9454,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfResultPatent_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -10083,6 +10096,19 @@ cfResultProduct_Measurement</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfResultProduct_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultProduct_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultProduct_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfResultProduct_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultProduct_Funding.cfClassificationIdentifier">
@@ -10102,19 +10128,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfResultProduct_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultProduct_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultProduct_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -11094,6 +11107,19 @@ cfResultPublication_Measurement</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfResultPublication_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfResultPublication_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication_Funding.cfClassificationIdentifier">
@@ -11113,19 +11139,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfResultPublication_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -11985,6 +11998,19 @@ cfFacility_Service</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/cerif/model#cfService_Funding.cfAmount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfService_Funding.cfAmount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfService_Funding"/>
+        <rdfs:range rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:label>cfAmount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>cfAmount</physicalName>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/cerif/model#cfService_Funding.cfClassificationIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfService_Funding.cfClassificationIdentifier">
@@ -12004,19 +12030,6 @@ i.e. (author, author percentage, editor, ... i.e. belonging to a scheme Person-P
         <rdfs:label>cfClassificationIdentifier</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfClassId</physicalName>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfService_Funding.cfCurrencyCode -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cerif/model#cfService_Funding.cfCurrencyCode">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#objectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfService_Funding"/>
-        <rdfs:range rdf:resource="https://w3id.org/cerif/model#cfCurrency"/>
-        <rdfs:label>cfCurrencyCode</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfCurrCode</physicalName>
     </owl:ObjectProperty>
     
 
@@ -12443,6 +12456,19 @@ cfFacility_Service</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- https://w3id.org/cerif/model#Amount.amount -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#Amount.amount">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#Amount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>amount</rdfs:label>
+        <vs:term_status>stable</vs:term_status>
+        <physicalName>amount</physicalName>
+    </owl:DatatypeProperty>
     
 
 
@@ -14798,19 +14824,6 @@ cfEquipment_PostAddress
     
 
 
-    <!-- https://w3id.org/cerif/model#cfEquipment_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfEquipment_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfEquipment_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfEquipment_Funding.cfEndDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfEquipment_Funding.cfEndDate">
@@ -15255,19 +15268,6 @@ The free or fee attributes indicates whether the event charges a fee or is a fre
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfEvent_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfEvent_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfEvent_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -15792,19 +15792,6 @@ cfFacility_PostAddress</rdfs:comment>
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfFacility_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfFacility_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFacility_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -16363,19 +16350,6 @@ cfFacility_PostAddress</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfFunding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfFunding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfFunding.cfDescription -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfFunding.cfDescription">
@@ -16571,19 +16545,6 @@ or an appropriate link between this cfFunding and the relevant party (cfOrganisa
     
 
 
-    <!-- https://w3id.org/cerif/model#cfFunding_Indicator.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Indicator.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding_Indicator"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfFunding_Indicator.cfEndDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Indicator.cfEndDate">
@@ -16619,19 +16580,6 @@ or an appropriate link between this cfFunding and the relevant party (cfOrganisa
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfFunding_Measurement.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfFunding_Measurement.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfFunding_Measurement"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -17612,19 +17560,6 @@ For English in the UK, this would look like: EN-GB</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfMedium_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfMedium_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfMedium_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfMedium_Funding.cfEndDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfMedium_Funding.cfEndDate">
@@ -17998,21 +17933,6 @@ cfOrganisationUnit_Measurement
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit.cfTurnover -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit.cfTurnover">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:comment xml:lang="en">In accounting, the number of times an asset is replaced during a financial period.
-		</rdfs:comment>
-        <rdfs:label>cfTurnover</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfTurn</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit.cfUniformResourceIdentifier -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit.cfUniformResourceIdentifier">
@@ -18195,19 +18115,6 @@ cfOrganisationUnit_Measurement
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Equipment.cfStartDate">
@@ -18312,19 +18219,6 @@ cfOrganisationUnit_Measurement
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ExpertiseAndSkills.cfStartDate">
@@ -18390,19 +18284,6 @@ cfOrganisationUnit_Measurement
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Facility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Facility.cfStartDate">
@@ -18412,19 +18293,6 @@ cfOrganisationUnit_Measurement
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -18823,19 +18691,6 @@ To express the relative order between creators and/or contributors.</rdfs:commen
     
 
 
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_ResultProduct.cfStartDate">
@@ -18964,19 +18819,6 @@ To express the relative order between creators and/or contributors.</rdfs:commen
         <rdfs:label>cfFraction</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfFraction</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfOrganisationUnit_Service.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfOrganisationUnit_Service"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -19432,19 +19274,6 @@ cfPerson_Measurement</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_Equipment.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Equipment.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Equipment"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_Equipment.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Equipment.cfStartDate">
@@ -19549,19 +19378,6 @@ cfPerson_Measurement</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ExpertiseAndSkills.cfStartDate">
@@ -19627,19 +19443,6 @@ cfPerson_Measurement</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_Facility.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Facility.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Facility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_Facility.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Facility.cfStartDate">
@@ -19649,19 +19452,6 @@ cfPerson_Measurement</rdfs:comment>
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfPerson_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -20241,19 +20031,6 @@ To express the relative order between creators and/or contributors.</rdfs:commen
     
 
 
-    <!-- https://w3id.org/cerif/model#cfPerson_ResultProduct.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ResultProduct.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_ResultProduct"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfPerson_ResultProduct.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_ResultProduct.cfStartDate">
@@ -20382,19 +20159,6 @@ To express the relative order between creators and/or contributors.</rdfs:commen
         <rdfs:label>cfFraction</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfFraction</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfPerson_Service.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfPerson_Service.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfPerson_Service"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -21000,19 +20764,6 @@ or an appropriate link between this cfProject and the project participant (cfOrg
     
 
 
-    <!-- https://w3id.org/cerif/model#cfProject_Equipment.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_Equipment.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Equipment"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfProject_Equipment.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_Equipment.cfStartDate">
@@ -21117,19 +20868,6 @@ or an appropriate link between this cfProject and the project participant (cfOrg
     
 
 
-    <!-- https://w3id.org/cerif/model#cfProject_Facility.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_Facility.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Facility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfProject_Facility.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_Facility.cfStartDate">
@@ -21139,19 +20877,6 @@ or an appropriate link between this cfProject and the project participant (cfOrg
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfProject_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -21663,19 +21388,6 @@ or an appropriate link between this cfProject and the project participant (cfOrg
     
 
 
-    <!-- https://w3id.org/cerif/model#cfProject_Service.cfPrice -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_Service.cfPrice">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfProject_Service"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfPrice</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfPrice</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfProject_Service.cfStartDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfProject_Service.cfStartDate">
@@ -22051,19 +21763,6 @@ cfResultPatent_Measurement
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfResultPatent_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPatent_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPatent_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -22524,19 +22223,6 @@ cfResultProduct_Measurement</rdfs:comment>
         <rdfs:label>cfStartDate</rdfs:label>
         <vs:term_status>stable</vs:term_status>
         <physicalName>cfStartDate</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cerif/model#cfResultProduct_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultProduct_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultProduct_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
     </owl:DatatypeProperty>
     
 
@@ -23407,19 +23093,6 @@ volume (journals), a bibliographic identifier.</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfResultPublication_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfResultPublication_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfResultPublication_Funding.cfEndDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfResultPublication_Funding.cfEndDate">
@@ -23974,19 +23647,6 @@ cfFacility_Service</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/cerif/model#cfService_Funding.cfAmount -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfService_Funding.cfAmount">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cerif/model#dataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cerif/model#cfService_Funding"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:label>cfAmount</rdfs:label>
-        <vs:term_status>stable</vs:term_status>
-        <physicalName>cfAmount</physicalName>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/cerif/model#cfService_Funding.cfEndDate -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cerif/model#cfService_Funding.cfEndDate">
@@ -24261,6 +23921,17 @@ cfFacility_Service</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#Entity"/>
         <rdfs:label xml:lang="en">CERIF additional entity</rdfs:label>
         <vs:term_status>stable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cerif/model#Amount -->
+
+    <owl:Class rdf:about="https://w3id.org/cerif/model#Amount">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cerif/model#Entity"/>
+        <rdfs:comment xml:lang="en">CERIF amount is an entity that can store an amount of money.</rdfs:comment>
+        <rdfs:label xml:lang="en">CERIF amount</rdfs:label>
+        <vs:term_status>test</vs:term_status>
     </owl:Class>
     
 
