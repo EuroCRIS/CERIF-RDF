@@ -13,8 +13,8 @@
         <rdfs:comment xml:lang="en">This version is experimental.</rdfs:comment>
         <rdfs:comment xml:lang="en">This document describes the CERIF data model.</rdfs:comment>
         <vann:preferredNamespaceUri>https://w3id.org/cerif/model#</vann:preferredNamespaceUri>
-        <dct:creator>Laurent Remy</dct:creator>
         <vann:preferredNamespacePrefix>cerif</vann:preferredNamespacePrefix>
+        <dct:creator>Laurent Remy</dct:creator>
         <dct:creator>Jan Dvorak</dct:creator>
     </owl:Ontology>
     
