@@ -6,5 +6,5 @@ before_install:
 - echo >>${HOME}/.ssh/known_hosts 'www.eurocris.org,52.31.103.124 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKtLCmTwioz7Bk8GOuzWrLcW/cEmouzS5xu2nrZqP7WNPogQ2ppNtH4sgvMBMaFde5+3vjG6URGrVVxwkIXfVVI='
 
 script:
-- git checkout develop
+- git checkout origin/develop
 - rsync -e 'ssh -i .ssh/cerif.eurocris.org.key -l jdvorak' -auv CERIFmodel.rdf www.eurocris.org:/data-eurocris/documentRoot/wwwcerif/model.rdf
