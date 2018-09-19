@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/cerif/vocab/Genders#"
+     xml:base="https://w3id.org/cerif/vocab/Genders"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+	 xmlns:bibo="http://purl.org/ontology/bibo/">
+	<owl:Ontology rdf:about="https://w3id.org/cerif/vocab/Genders">
+		<vann:preferredNamespaceUri>https://w3id.org/cerif/vocab/Genders#</vann:preferredNamespaceUri>
+		<vann:preferredNamespacePrefix>genders</vann:preferredNamespacePrefix>
+        <rdfs:label xml:lang="en">Genders ontology</rdfs:label>
+		<dcterms:title xml:lang="en">Controlled vocabularies for the Genders (sociocultural, not linguistic)</dcterms:title>
+        <dcterms:description xml:lang="en">This file specifies the controlled vocabularies defined by CERIF	as SKOS concept schemes and SKOS concepts.</dcterms:description>
+		<bibo:status>draft</bibo:status>
+        <owl:versionInfo xml:lang="en">https://w3id.org/cerif/vocab/Genders/0.1</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 0.1</owl:versionInfo>
+        <dcterms:created rdf:datatype="xsd:date">2018-09-19</dcterms:created>
+		<dcterms:creator>Laurent Remy</dcterms:creator>
+		<dcterms:license>http://creativecommons.org/licenses/by/4.0/</dcterms:license>
+	</owl:Ontology>
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cerif/vocab/Genders#scheme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <skos:prefLabel xml:lang="en">Genders</skos:prefLabel>
+        <skos:definition xml:lang="en">Genders (sociocultural, not linguistic)</skos:definition>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Genders#Masculine"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Genders#Feminine"/>
+    </owl:NamedIndividual>
+    
+	<owl:NamedIndividual rdf:about="https://w3id.org/cerif/vocab/Genders#Masculine">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Masculine</skos:prefLabel>
+        <skos:definition xml:lang="en">Man</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/cerif/vocab/Genders#scheme"/>
+	</owl:NamedIndividual>
+
+	<owl:NamedIndividual rdf:about="https://w3id.org/cerif/vocab/Genders#Feminine">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Feminine</skos:prefLabel>
+        <skos:definition xml:lang="en">Woman</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/cerif/vocab/Genders#scheme"/>
+	</owl:NamedIndividual>
+	
+</rdf:RDF>
