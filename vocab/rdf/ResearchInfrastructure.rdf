@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructure">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>dbdd1fdb-128b-414c-ba2b-fa26a25a4bc6</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Infrastructure</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme defines the CERIF concept of "Research Infrastructure" composed through the link entities cfEquipment_Classification, cfFacility_Classification, cfService_Classification</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructure#ResearchInfrastructure"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructure#ResearchInfrastructure">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructure"/>
+<dc:identifier>cf7799ea-3477-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Infrastructure</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF, the concept of research infrastructure is defined as a term in the vocabulary. A research infrastructure in CERIF terms subsumes the three entities service cfService (cfSrv), equipment cfEquipment (cfEquip) and facility cfFacility (cfFacil); these are logic and physic enitites in the CERIF data model.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A European Research Infrastructure is a facility or (virtual) platform that provides the scientific community with resources and services to conduct top-level research in their respective fields. These research infrastructures can be single-sited or distributed or an e-infrastructure, and can be part of a national or international network of facilities, or of interconnected scientific instrument networks. The infrastructure should: offer top quality scientific and technological performance, that should be recognised as being of European relevance offer access to scientific users from Europe and beyond through a transparent selection process on the basis of excellence have stable and effective management</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Concept; MERIL project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.esf.org/activities/science-policy/research-infrastructures/meril-mapping-of-the-european-research-infrastructure-landscape/what-is-meant-by-research-infrastructures.html</dc:source>
+</rdf:Description>
+</rdf:RDF>

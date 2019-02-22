@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>6b2b7d24-3491-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person Professional Relationships</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfPerson_Person link entity, being thus an interpersonal structure.</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Co-Investigator"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Mentor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Supervisor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Co-Supervisor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#ExternalSupervisor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Advisor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Colleague"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Co-Researcher"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Co-Investigator">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>bc34dc30-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Co-Investigator</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, co-investigator is a role in e.g. the person-project relationship; that is, the classification term (cfTerm) "Co-Investigator" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A co-investitagor is also called co-promoter (quite often from different organizations). A co-investigator, fellow worker, workfellow (an associate that one works with).</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Mentor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>6b2b7d22-3491-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Mentor</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A mentor is a wise and trusted guid and advisor.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group, RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=mentor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Supervisor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>6b2b7d23-3491-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Supervisor</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person wich the official task of overseeing the work of a person or group.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=supervisor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Co-Supervisor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>ab0ed712-6e50-46a5-8fa2-5d9b87c27e6d</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Co-Supervisor</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Is an additional member of the supervisory team, that guides a research student through their programme of studies. Often he/she has complementory expertise to the supervisor.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#ExternalSupervisor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>3ccd035b-bc79-477e-aa6c-0bd3606f85c8</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">External Supervisor</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A co-supervisor that is external to the host institution of the research student.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Advisor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>81d0d105-216f-42f0-8c96-a87ba2adfa41</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Advisor</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person that has an adhoc, informal input into the work of the supervisory team.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Colleague">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>1d689234-c537-4bba-b59a-2d85e1efcd1d</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Colleague</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A co-worker, fellow worker, workfellow (an associate that one works with.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=colleague</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonProfessionalRelationships#Co-Researcher">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonProfessionalRelationships"/>
+<dc:identifier>78883ba6-a5ac-45d4-a2e2-20b3f7f43a63</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Co-Researcher</rdfs:label>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+</rdf:Description>
+</rdf:RDF>

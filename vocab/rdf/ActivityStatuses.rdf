@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>759af93a-34ae-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Activity Statuses</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfProject_Classification link entity, being thus Activity states.</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#Conceptualised"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#Internal-Reviewed"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#Submitted"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#NotSubmitted"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#Awarded"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#Rejected"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#AssumedUnsuccessful"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#Withdrawn"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses#Closed"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#Conceptualised">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>8dc4b088-6e93-4d3a-ab67-60c0d287868b</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Conceptualised</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The definition of a planned activity is being developed.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#Internal-Reviewed">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>edb73a76-2b48-4eca-991e-1b0b6fbe524a</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Internal-Reviewed</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The definition of a planned activity has been sucessfully reviewed including for example a peer review, ethical review, health and safety review, etc. If not sucessfully reviewed, then the proposal needs adjustment for internal re-review or might change status to not submitted.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#Submitted">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>20a14a62-85b2-42fe-bd46-d9f07a752abc</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Submitted</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The proposed activity has been submitted to the proposed funder for consideration.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#NotSubmitted">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>444ababa-bfe8-42fc-af0c-15464545ef98</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Not Submitted</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The proposed activity has not been and is not expected to be submitted to a funder for consideration.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#Awarded">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>eda2b2e0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Awarded</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The state of awarded is to give as judged due or on the basis of merit. The funder has agreed to fund the proposed activity.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary; http://wordnetweb.princeton.edu/perl/webwn?s=Award</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#Rejected">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>f97f3ccd-13c0-46ce-9cb3-98ebb58f39fd</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Rejected</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The funder rejected the proposed activity. The state of refused is to refuse to let have.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project; CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary; http://wordnetweb.princeton.edu/perl/webwn?s=Award</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#AssumedUnsuccessful">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>0bb4df81-4e9a-41ae-947c-5ae3bde26abd</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Assumed Unsuccessful</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The funder has not (yet) responded although the elapsed time since submission implies that the proposal has not been successful.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#Withdrawn">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>bfcdfa1c-6d27-4012-9468-1c91cecbba45</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Withdrawn</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The funder has agreed to fund the proposed activity but the activity will not proceed (e.g. terms of contract are not acceptable, researchers left institution, etc.).</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ActivityStatuses#Closed">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ActivityStatuses"/>
+<dc:identifier>276a4f0c-6729-47df-b8d3-7cd1cb3c7e67</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Closed</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The activity is considered completed.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+</rdf:RDF>

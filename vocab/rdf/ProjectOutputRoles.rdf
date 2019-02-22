@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectOutputRoles">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>759af931-34ae-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Project Output Roles</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in a cfProject_ResultPublication link entity - being thus project publication roles.</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectOutputRoles#Originator"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectOutputRoles#Originator">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectOutputRoles"/>
+<dc:identifier>eda2b2d8-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Originator</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A originator is someone who creates new things.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=Originator</dc:source>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>994069a0-1cd6-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person Organisation Roles</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfPerson_OrganisationUnit link entity without further specification, being thus Person Organisation Roles.</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Professor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Associate"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Affiliation"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Subaffiliation"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Head"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Employee"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Member"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Director"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#DeputyDirector"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Dean"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Principle"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#HeadofDepartment"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#GroupLeader"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Manager"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Spokesperson"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Fellow"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Reviewer"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Contractor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Subcontractor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Engineer"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Secretary"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Researcher"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#JuniorResearcher"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#SeniorResearcher"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Consultant"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#JuniorConsultant"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#SeniorConsultant"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Lecturer"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#JuniorLecturer"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#SeniorLecturer"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#GuestLecturer"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#AssistantProfessor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#HonoraryProfessor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#VisitingProfessor"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Doctor(med)"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#ResearchFellow"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Postdoc"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#PhDStudent"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#ResearchAssistant"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Reader"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#TeachingFellow"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#TeachingAssistant"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Casual"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Expert"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Contributor"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Professor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>3bb53320-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Professor</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A professor is someone who is a member of the faculty at a college or university.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=professor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Associate">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>a27e5ca7-3d20-4272-9054-7db550e2a053</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Associate</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, associate is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Associate" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An associate is a person with subordinate membership in a society, institution, or commercial enterprise.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=associate</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Affiliation">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>980965b0-1cd5-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Affiliation</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, affiliation is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Affiliation" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An affiliation is a formal connection,</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Subaffiliation">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>081e85f0-1cd7-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Subaffiliation</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, subaffiliation is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Subaffiliation" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A subaffiliation is a formal subconnection of an affiliation.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Head">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>6125f750-1cd7-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Head</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, head is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Head" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person who is in charge</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=head</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Employee">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>c302c2f0-1cd7-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Employee</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, employee is a role e.g. in the person-organisation relationship; that is, the classification term (cfTerm) "Employee" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A worker who is hired to perform a job</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=Employee</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Member">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>cb3e0010-1cd7-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Member</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, the member role happens e.g. within the relationships person-organisation, person-project; organisation-organisation, that is, the classification term (cfTerm) "Member" identified by its cfClassificationIdentifier (a uuid), and reused with e.g. the cfPerson_OrganisationUnit; cfProject_Person; cfOrganisationUnit_OrganisationUnit relationships. A person can be a member of multiple organisations. An organization can be a member of another organization, or a state that belongs to a group of nations.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A member is anything that belongs to a set or class.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=member</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Director">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>68971130-1cd8-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Director</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, director is e.g. a role in the person-organisation relationship; that is, the classification term (cfTerm) "Director" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A director is someone who controls resources and expenditures</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=director</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#DeputyDirector">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>885eeb00-1cf6-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Deputy Director</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, deputy director is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Deputy Director" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A deputy director is a person appointed to represent or act on behalf of the director</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=deputy</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Dean">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>57f7a7d0-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Dean</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, dean is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Dean" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A dean is an administrator in charge of a division of a university or college.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=dean</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Principle">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>612163a0-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Principle</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, principle is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Principle" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A principle is a person who empowers another to act as his or her representative; The person having prime responsibility for an obligation as distinguished from one who acts as surety or as an endorser. (law)</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.yourdictionary.com/principal</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#HeadofDepartment">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>68cdce40-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Head of Department</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, head of department is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Head of Department" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A head of department is a person who is in charge of a specialized division of a large organization.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=department; http://wordnetweb.princeton.edu/perl/webwn?s=headhttp://wordnetweb.princeton.edu/perl/webwn?s=department; http://wordnetweb.princeton.edu/perl/webwn?s=head</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#GroupLeader">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>7210b760-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Group Leader</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, group leader is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Group Leader" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A group leader is a person who rules or guides or inspires others or any number of entities (members) considered as a unit.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=group; http://wordnetweb.princeton.edu/perl/webwn?s=leader</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Manager">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>79a2e340-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Manager</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, the manager role happens e.g. within the relationships person-organisation or person-project; that is, the classification term (cfTerm) "Manager" identified by its cfClassificationIdentifier (a uuid), and reused with the e.g. cfPerson_OrganisationUnit or cfProject_Person relationships.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A manager is someone who controls resources and expenditures.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Spokesperson">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>8418a710-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Spokesperson</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, spokesperson is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Spokesperson" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A spokesperson is an advocate who represents someone else's policy or purpose.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=spokesperson</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Fellow">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>94d55210-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Fellow</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, fellow is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Fellow" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A fellow is a member of a learned society.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=fellow</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Reviewer">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>9ef1ab40-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Reviewer</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, reviewer is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Reviewer" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A reviewer is someone who reads manuscripts and judges their suitability for publication.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=reviewer</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Contractor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>abf21190-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Contractor</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A contractor is someone (a person or firm) who contracts to build things, (law) a party to a contract.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=contractor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Subcontractor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>b272a660-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Subcontractor</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A subcontractor is someone who enters into a subcontract with the primary contractor.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=subcontractor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Engineer">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>057a7d50-1cfe-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Engineer</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit or cfProject_Person link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person who uses scientific knowledge to solve practical problems.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=engineer</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Secretary">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>c6e02460-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Secretary</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, secretary is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Secretary" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A secretary is a person who is head of an administrative department of government, an assistant who handles correspondence and clerical work for a boss or an organization</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=secretary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Researcher">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>ebd55ab0-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Researcher</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, researcher is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Researcher" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A researcher is a scientist who devotes himself to doing research (Wordnet). Permanent research, non-teaching staff (RMAS Project).</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=researcher</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#JuniorResearcher">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>f401a3b0-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Junior Researcher</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, junior researcher is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Junior Researcher" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A junior researcher is a scientist who devotes himself to doing research but younger; lower in rank; shorter in length of tenure or service</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=Junior; http://wordnetweb.princeton.edu/perl/webwn?s=researcher</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#SeniorResearcher">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>faf322c0-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Senior Researcher</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, senior researcher is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Senior Researcher" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A senior researcher is a scientist who devotes himself to doing research and is older; higher in rank; longer in length of tenure or service</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=senior; http://wordnetweb.princeton.edu/perl/webwn?s=researcher</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Consultant">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>04c3f400-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Consultant</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, consultant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Consultant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A consultant is an expert who gives advice.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=consultant</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#JuniorConsultant">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>0bb17b70-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Junior Consultant</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, junior consultant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Junior Consultant" identified by its cfClassificationIdentifier (a uuid) and reused in in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A junior consultant is an expert who gives advice and that is younger; lower in rank; shorter in length of tenure or service.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=junior; http://wordnetweb.princeton.edu/perl/webwn?s=consultant</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#SeniorConsultant">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>13633d40-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Senior Consultant</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, senior consultant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Senior Consultant" identified by its cfClassificationIdentifier (a uuid) and reused in in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A senior consultant is an expert who gives advice that is older; higher in rank; longer in length of tenure or service.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=consultant; http://wordnetweb.princeton.edu/perl/webwn?s=senior</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Lecturer">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>1a3c5250-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Lecturer</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A lecturer is someone who lectures professionally, a public lecturer at certain universities.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=lecturer</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#JuniorLecturer">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>23b16f00-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Junior Lecturer</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, junior lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Junior Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A junior lecturer is someone who lectures professionally, a public lecturer at certain universities and is younger; lower in rank; shorter in length of tenure or service.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=lecturer; http://wordnetweb.princeton.edu/perl/webwn?s=junior</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#SeniorLecturer">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>2b20d0a0-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Senior Lecturer</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, senior lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Senior Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A senior lecturer is someone who lectures professionally, a public lecturer at certain universities and is older; higher in rank; longer in length of tenure or service.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=senior; http://wordnetweb.princeton.edu/perl/webwn?s=lecturer</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#GuestLecturer">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>33661fe0-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Guest Lecturer</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, guest lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Guest Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A guest lecturer is someone who lectures professionally, a public lecturer at certain universities and is a visitor to whom hospitality is extended.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=guest; http://wordnetweb.princeton.edu/perl/webwn?s=lecturer</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#AssistantProfessor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>45aec210-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Assistant Professor</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, assistant professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Assistant Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An assistant professor is a university teacher lower in rank than an associate professor.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.thefreedictionary.com/assistant+professor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#HonoraryProfessor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>4dfbb270-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Honorary Professor</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, honorary professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Honorary Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An honorary professor is given an honor without the normal duties of a professor, someone who is a member of the faculty at a college or university.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=honorary; http://wordnetweb.princeton.edu/perl/webwn?s=professor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#VisitingProfessor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>55ddd310-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Visiting Professor</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, visiting professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Visiting Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A visiting professor is in the activity of a professor making visits.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=visiting; http://wordnetweb.princeton.edu/perl/webwn?s=professor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Doctor(med)">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>5d1534c0-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Doctor (med)</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, doctor (med) is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Doctor (med)" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A doctor (med) is a licensed medical practitioner.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=Doctor</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#ResearchFellow">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>64af4fe0-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Fellow</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, research fellow is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Research Fellow" identified by its cfClassificationIdentifier (a uuid) and reused in in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The title of research fellow is used to denote a research position at a university or similar institution, usually for academic staff or faculty members. A research fellow may act either as an independent investigator or under the supervision of a principal investigator.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Research_fellow</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Postdoc">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>6c68b2d0-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Postdoc</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, postdoc is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Postdoc" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A PostDoc is a scholar or researcher who is involved in academic study beyond the level of a doctoral degree</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=Postdoc</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#PhDStudent">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>727f6240-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">PhD Student</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, phd is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "PhD" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A Phd or doctor's degree; doctorate is usually based on at least 3 years graduate study and a dissertation; the highest earned academic degrees conferred by a university.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=PhD</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#ResearchAssistant">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>7a510820-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Assistant</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, research assistant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Research Assistant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A research assistant (in some institutions referred to as research officer) is a researcher employed, often on a temporary contract,[1] by a university or a research institute, for the purpose of assisting in academic research. Research assistants are not independent and not directly responsible for the outcome of the research and are responsible to a supervisor or principal investigator. Research assistants are often educated to degree level[2] and might be enrolled in a postgraduate degree programme. Although a research assistant is normally appointed at graduate level, so-called undergraduate research assistant are also sometimes appointed to support research. Similarly a postdoctoral research assistant who has recently been awarded a doctoral degree, may hold a temporary appointment as a research assistant, especially for position without any autonomy and research independence that requires a high degree of reliability.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Research_assistant</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Reader">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>80cae630-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Reader</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, reader is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Reader" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A reader is a public lecturer at certain universities.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=reader</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#TeachingFellow">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>91784ef0-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Teaching Fellow</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, teaching fellow is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Teaching Fellow" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A teaching fellow is a particular teaching role at some universities. In the USA a teaching fellow is an advanced graduate student who serves as the primary instructor for an undergraduate course. In the UK, teaching fellows are more commonly full members of academic staff who have the equivalent rank and pay as 'traditional' research-active academic staff.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Teaching_fellow</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#TeachingAssistant">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>99c34380-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Teaching Assistant</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, teaching assistant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "teaching assistant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A teaching assistant is an individual who assists a professor or teacher with instructional responsibilities.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Teaching_assistant</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Casual">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>a3bf6a80-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Casual</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, casual is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Casual" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A caual is a person without or seeming to be without plan or method.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=casual</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Expert">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>a9fc3f90-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Expert</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, expert is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Expert" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An expert is a person with special knowledge or ability who performs skillfully.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=expert</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonOrganisationRoles#Contributor">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonOrganisationRoles"/>
+<dc:identifier>e4d7b130-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Contributor</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contributor is a role in e.g. the person-project relationship; that is, the classification term (cfTerm) "Contributor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person contributing (in a generic way) before/during/after an event. An entity responsible for making contributions to the resource.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; CIA project; RMAS Project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary; http://dublincore.org/documents/dces/#contributor</dc:source>
+</rdf:Description>
+</rdf:RDF>

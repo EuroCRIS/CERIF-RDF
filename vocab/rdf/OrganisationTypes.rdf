@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>759af939-34ae-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Organisation Types</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_Classification link entity, being thus organisation types.</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#AcademicInstitute"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#University"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#UniversityCollege"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#ResearchInstitute"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#StrategicResearchInsitute"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#Company"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#SME"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#Government"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#HigherEducation"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#Privatenon-profit"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#Intergovernmental"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#Charity"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#AcademicInstitute">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2ec-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Academic Institute</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An academic institution is an educational institution dedicated to education and research, which grants academic degrees.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Academic_institution</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#University">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2ed-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">University</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A university is an institution of higher education and research, which grants academic degrees in a variety of subjects. A university is a corporation that provides both undergraduate education and postgraduate education.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/University</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#UniversityCollege">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2ee-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">University College</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The term "university college" is used in a number of countries to denote college institutions that provide tertiary education but do not have full or independent university status. A university college is often part of a larger university. The precise usage varies from country to country.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/University_college</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#ResearchInstitute">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2ef-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Institute</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A research institute is an establishment endowed for doing research. Research institutes may specialize in basic research or may be oriented to applied research.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS;</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Research_institute</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#StrategicResearchInsitute">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2f0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Strategic Research Insitute</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A strategic research institute's core mission is to provide analyses that respond to the needs of decision-makers.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#Company">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2f1-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Company</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A company is a form of business organization. In the United States, a company is a corporation—or, less commonly, an association, partnership, or union—that carries on an industrial enterprise." Generally, a company may be a "corporation, partnership, association, joint-stock company, trust, fund, or organized group of persons, whether incorporated or not, and (in an official capacity) any receiver, trustee in bankruptcy, or similar official, or liquidating agent, for any of the foregoing." In English law, and therefore in the Commonwealth realms, a company is a form of body corporate or corporation, generally registered under the Companies Acts or similar legislation. It does not include a partnership or any other unincorporated group of persons.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Company</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#SME">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2f2-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">SME</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Small and medium enterprises (also SMEs, small and medium businesses, SMBs, and variations thereof) are companies whose headcount or turnover falls below certain limits. EU Member States traditionally have their own definition of what constitutes an SME, for example the traditional definition in Germany had a limit of 250 employees, while, for example, in Belgium it could have been 100. But now the EU has started to standardize the concept. Its current definition categorizes companies with fewer than 10 employees as "micro", those with fewer than 50 employees as "small", and those with fewer than 250 as "medium".</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Small_and_medium_enterprises; http://ec.europa.eu/enterprise/policies/sme/facts-figures-analysis/sme-definition/index_en.htm</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#Government">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2f3-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Government</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A government is the organization, or agency through which a political unit exercises its authority, controls and administers public policy, and directs and controls the actions of its members or subjects.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Government</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#HigherEducation">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2f4-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Higher Education</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Higher education or post-secondary education refers to a level of education that is provided at academies, universities, colleges, seminaries, institutes of technology, and certain other collegiate- level institutions, such as vocational schools, trade schools, and career colleges, that award academic degrees or professional certifications.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Higher_education</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#Privatenon-profit">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>eda2b2f5-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Private non-profit</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An organization that is incorporated under state law and whose purpose is not to make profit, but rather to further a charitable, civic, scientific, or other lawful purpose.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#Intergovernmental">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>13d1fa53-18f0-4bf2-88ca-2d2df474f404</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Intergovernmental</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An intergovernmental organization, sometimes rendered as an international governmental organization and both abbreviated as IGO, is an organization composed primarily of sovereign states (referred to as member states), or of other intergovernmental organizations. Intergovernmental organizations are often called international organizations, although that term may also include international nongovernmental organization such as international non-profit organizations or multinational corporations.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">VOA3R project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Intergovernmental_organization</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#Charity">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>ecaac6d5-b281-4f0a-a6fa-2c155aa51002</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Charity</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A charitable organization is a type of non-profit organization (NPO). It differs from other types of NPOs in that it centers on philanthropic goals (e.g. charitable, educational, religious, or other activities serving the public interest or common good). The legal definition of charitable organization (and of Charity) varies according to the country and in some instances the region of the country in which the charitable organization operates. The regulation, tax treatment, and the way in which charity law affects charitable organizations also varies.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Charitable_organization</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationTypes"/>
+<dc:identifier>1d9ffa49-8af2-4844-a228-5498846b8da2</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">National Health Service</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Hospitals, trusts and other bodies receiving funding from central governement through the national insurance scheme.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+</rdf:RDF>

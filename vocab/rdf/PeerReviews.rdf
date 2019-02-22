@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PeerReviews">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>4bdfc4ac-7c74-456d-9d3b-b1e4267b90a9</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Peer Reviews</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Whether or not the output is known to be peer-reviewed.</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PeerReviews#Yes"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PeerReviews#No"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PeerReviews#Unknown"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PeerReviews#Yes">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PeerReviews"/>
+<dc:identifier>df943548-c67e-4c96-8c4f-1c0aa144b1c0</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Yes</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Where the output has been subject to assessment and critique by independent experts.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PeerReviews#No">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PeerReviews"/>
+<dc:identifier>0c7c83d0-5513-4eaa-b5cf-d01374c3d2eb</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">No</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Where the output has not been subject to assessment and critique by independent experts.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PeerReviews#Unknown">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PeerReviews"/>
+<dc:identifier>22b56ddc-87e8-4023-ab56-e661dcb8ffd3</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Unknown</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Where it is unknown whether the output has been subject to assessment and critique by independent experts.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+</rdf:Description>
+</rdf:RDF>
