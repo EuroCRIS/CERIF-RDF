@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/EducationDomainTerms">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+<dc:identifier>b0ca7692-7fda-499f-be40-b44a7bc4f7c7</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Education Domain Terms</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfService_Classification link entity, being used as a vocabulary of educational material, e.g. courses.</dc:description>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/EducationDomainTerms#Course"/>
+<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/EducationDomainTerms#CoursePresentation"/>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/EducationDomainTerms#Course">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/EducationDomainTerms"/>
+<dc:identifier>e88f9cfd-b786-40cb-9163-4718dbb865ff</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Course</rdfs:label>
+<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A course text is a type of study text used as a support for students.</skos:definition>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+</rdf:Description>
+<rdf:Description rdf:about="https://w3id.org/cerif/vocab/EducationDomainTerms#CoursePresentation">
+<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/EducationDomainTerms"/>
+<dc:identifier>300592ee-e671-4054-a852-ab37b0d744c1</dc:identifier>
+<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Course Presentation</rdfs:label>
+<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A course originating in the Education context is considered a type of service, therefore applicable in the cfSrv_Class link entity. Furthermore, a course presentation is considered an event, hence cfEvent_Class. The series of events linked to a service define the temporal manifestation of the service, which is thus</dc:description>
+<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+</rdf:Description>
+</rdf:RDF>
