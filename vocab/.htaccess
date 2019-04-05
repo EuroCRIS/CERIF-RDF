@@ -13,7 +13,7 @@ RewriteRule (.*) $1 [L]
 # Rewrite rule to serve HTML content from the vocabulary URI if requested text/html or application/xhtml+xml
 RewriteCond %{HTTP_ACCEPT} !(text/xml|application/xml).*(text/html|application/xhtml\+xml)
 RewriteCond %{HTTP_ACCEPT} !application/rdf\+xml.*(text/html|application/xhtml\+xml)
-RewriteCond %{HTTP_ACCEPT} text/html [OR]
+RewriteCond %{HTTP_ACCEPT} text/html
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml [OR]
 RewriteRule (.*) html/$1.html [R=303,L]
 
