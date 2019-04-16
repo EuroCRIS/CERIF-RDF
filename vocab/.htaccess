@@ -6,6 +6,10 @@ AddType application/rdf+xml .rdf
 RewriteEngine On
 RewriteBase /vocab
 
+#if no vocabulary requested, just list the folder (needs +Indexes on the folder)
+RewriteCond %{REQUEST_URI} ^/vocab/$
+RewriteRule (.*) $1 [L]
+
 #if already in final folders, stop redirecting
 RewriteCond %{REQUEST_URI} /(html|xml|rdf)/
 RewriteRule (.*) $1 [L]
