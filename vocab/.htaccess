@@ -2,6 +2,10 @@
 # if not present in main apache config
 AddType application/rdf+xml .rdf
 
+# Directory indexes
+Options -MultiViews +Indexes
+IndexOptions FancyIndexing HTMLTable
+
 # Rewrite engine setup
 RewriteEngine On
 RewriteBase /vocab
