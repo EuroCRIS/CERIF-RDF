@@ -163,7 +163,7 @@
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has phd student</cfRoleExprOpp>
       <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, phd is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "PhD" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
       <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
-      <cfEx cfLangCode="en" cfTrans="o">Doctor of Philosophy, abbreviated to PhD, or Ph.D. in English-speaking countries, for the Greek διδάκτω�? φιλοσοφίας (Latin philosophiae doctor). Here φιλοσοφία/philosophy, literally translating tο "the love of wisdom", is used in the original Greek sense, loosely meaning "the pursuit of in depth knowledge" and does not refer to the scientific field philosophy.</cfEx>
+      <cfEx cfLangCode="en" cfTrans="o">Doctor of Philosophy, abbreviated to PhD, or Ph.D. in English-speaking countries, for the Greek διδάκτωρ φιλοσοφίας (Latin philosophiae doctor). Here φιλοσοφία/philosophy, literally translating tο "the love of wisdom", is used in the original Greek sense, loosely meaning "the pursuit of in depth knowledge" and does not refer to the scientific field philosophy.</cfEx>
       <cfExSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Doctor_of_Philosophy</cfExSrc>
       <cfDef cfLangCode="en" cfTrans="o">A Phd or doctor's degree; doctorate is usually based on at least 3 years graduate study and a dissertation; the highest earned academic degrees conferred by a university.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=PhD</cfDefSrc>
