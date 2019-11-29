@@ -30,7 +30,7 @@
       <cfTerm cfLangCode="en" cfTrans="o">Virtual</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
-      <cfDescr cfLangCode="en" cfTrans="o">A virtual RI is defined as e-infrastructure, either a distributed e�?infrastructure that connects several RIs (databases, HP computers, facilities, etc) or a single�?sited electronic RI (e-library, e-archive, data repository, etc).  </cfDescr>
+      <cfDescr cfLangCode="en" cfTrans="o">A virtual RI is defined as e-infrastructure, either a distributed e‐infrastructure that connects several RIs (databases, HP computers, facilities, etc) or a single‐sited electronic RI (e-library, e-archive, data repository, etc).  </cfDescr>
       <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
     </cfClass>
     <cfClass>
