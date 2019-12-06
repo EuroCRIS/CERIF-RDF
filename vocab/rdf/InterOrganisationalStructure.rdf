@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
 <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure">
 <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
 <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
