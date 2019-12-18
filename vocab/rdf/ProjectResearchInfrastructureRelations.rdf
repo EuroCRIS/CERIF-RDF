@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>6df06582-34bd-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Project Research Infrastructure Relations</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfProject_Equipment; cfProject_Service, cfProject_Facility link entities, being thus project infrastructure relation.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Builton"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#User"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Construction"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Development"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Builton">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
-<dc:identifier>eda28bc9-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Built on</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Built on - is a form of succession - informally expressed.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#User">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
-<dc:identifier>eda2da00-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">User</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Construction">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
-<dc:identifier>eda2da02-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Construction</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Development">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
-<dc:identifier>eda2da03-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Development</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>6df06582-34bd-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Project Research Infrastructure Relations</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfProject_Equipment; cfProject_Service, cfProject_Facility link entities, being thus project infrastructure relation.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Builton"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#User"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Construction"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Development"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Builton">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
+        <dc:identifier>eda28bc9-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Built on</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Built on - is a form of succession - informally expressed.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#User">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
+        <dc:identifier>eda2da00-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">User</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Construction">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
+        <dc:identifier>eda2da02-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Construction</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#Development">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations"/>
+        <dc:identifier>eda2da03-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Development</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
 </rdf:RDF>

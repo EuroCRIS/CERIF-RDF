@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/EventTypes">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>e489092b-82a9-4c24-a357-d94dc49eec9b</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Event Types</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfEvent_Classification link entity, being thus event types.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/EventTypes#Conference"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/EventTypes#Workshop"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/EventTypes#Conference">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/EventTypes"/>
-<dc:identifier>909ea9bd-e460-497e-8950-9ad306675ae9</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Conference</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An activity that brings together people to discuss topics around an agreed theme.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project, CASRAI Dictionary</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/EventTypes#Workshop">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/EventTypes"/>
-<dc:identifier>33fd9fc9-48b5-41c5-a2f6-b97c6996e432</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Workshop</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A physical or virtual networking activity bringing people together for a single gathering.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/EventTypes">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>e489092b-82a9-4c24-a357-d94dc49eec9b</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Event Types</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfEvent_Classification link entity, being thus event types.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/EventTypes#Conference"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/EventTypes#Workshop"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/EventTypes#Conference">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/EventTypes"/>
+        <dc:identifier>909ea9bd-e460-497e-8950-9ad306675ae9</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Conference</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An activity that brings together people to discuss topics around an agreed theme.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project, CASRAI Dictionary</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/EventTypes#Workshop">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/EventTypes"/>
+        <dc:identifier>33fd9fc9-48b5-41c5-a2f6-b97c6996e432</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Workshop</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A physical or virtual networking activity bringing people together for a single gathering.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
 </rdf:RDF>

@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>877161b4-00d2-42c8-a368-aaa35262f3a8</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Organisation Output Roles</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_ResultPublication link entity, being used as a vocabulary of organisation output roles - different from organisation output contribution.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Publisher"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Funder"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#IPRClaim"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Curator"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#AuthorInstitution"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#PublisherInstitution"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#ExternalOrganisation"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Publisher">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
-<dc:identifier>7ef398b2-1cfe-11e1-8bc2-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Publisher</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person or corporate entity that prepares and issues printed materials for public sale or distribution, normally on the basis of a legal contract in which the publisher is granted certain exclusive rights in exchange for assuming the financial risk of publication and agreeing to compensate the author, usually with a share of the profits.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://lu.com/odlis/odlis_t.cfm#publisher</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Funder">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
-<dc:identifier>eda28bc0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Funder</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Individual or organization financing a part or all of a project's cost as a grant, investment, or loan.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.businessdictionary.com/definition/funder.html</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#IPRClaim">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
-<dc:identifier>eda2b2d0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">IPR Claim</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">1. The rights of creative workers in literary, artistic, industrial and scientific fields which can be protected either by copyright or trademarks, patents, etc. 2. Tangible products of the human mind and intelligence entitled to the legal status of personal property, especially works protected by copyright, inventions that have been patented, and registered trademarks. An idea is considered the intellectual property of its creator only after it has been recorded or made manifest in specific form.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.newcastle.edu.au/service/library/tutorials/infoskills/glossary.html</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Curator">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
-<dc:identifier>eda2b2d2-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Curator</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person responsible for the development, care, organization, and supervision of a museum, gallery, or other exhibit space and all the objects stored or displayed in it, a role requiring considerable knowledge and experience when items are selected on the basis of artistic merit or connoisseurship. Also, a person in charge of a special collection, trained to assist users in locating and interpreting its holdings.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://lu.com/odlis/search.cfm</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#AuthorInstitution">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
-<dc:identifier>eda2b2d3-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Author Institution</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An author institution is an organization founded and united for a specific purpose where the author has a relationship.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#PublisherInstitution">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
-<dc:identifier>eda2b2d4-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Publisher Institution</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A publisher institution is an organization founded and united for a specific purpose where the publisher has a relationship.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#ExternalOrganisation">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
-<dc:identifier>eda2b2d6-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">External Organisation</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An external organisation an organization founded and united for a specific purpose that is happening or arising or located outside or beyond some limits or especially surface.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=External; http://wordnetweb.princeton.edu/perl/webwn?s=institution</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>877161b4-00d2-42c8-a368-aaa35262f3a8</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Organisation Output Roles</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_ResultPublication link entity, being used as a vocabulary of organisation output roles - different from organisation output contribution.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Publisher"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Funder"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#IPRClaim"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Curator"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#AuthorInstitution"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#PublisherInstitution"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles#ExternalOrganisation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Publisher">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
+        <dc:identifier>7ef398b2-1cfe-11e1-8bc2-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Publisher</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person or corporate entity that prepares and issues printed materials for public sale or distribution, normally on the basis of a legal contract in which the publisher is granted certain exclusive rights in exchange for assuming the financial risk of publication and agreeing to compensate the author, usually with a share of the profits.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://lu.com/odlis/odlis_t.cfm#publisher</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Funder">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
+        <dc:identifier>eda28bc0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Funder</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Individual or organization financing a part or all of a project's cost as a grant, investment, or loan.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.businessdictionary.com/definition/funder.html</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#IPRClaim">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
+        <dc:identifier>eda2b2d0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">IPR Claim</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">1. The rights of creative workers in literary, artistic, industrial and scientific fields which can be protected either by copyright or trademarks, patents, etc. 2. Tangible products of the human mind and intelligence entitled to the legal status of personal property, especially works protected by copyright, inventions that have been patented, and registered trademarks. An idea is considered the intellectual property of its creator only after it has been recorded or made manifest in specific form.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.newcastle.edu.au/service/library/tutorials/infoskills/glossary.html</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#Curator">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
+        <dc:identifier>eda2b2d2-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Curator</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person responsible for the development, care, organization, and supervision of a museum, gallery, or other exhibit space and all the objects stored or displayed in it, a role requiring considerable knowledge and experience when items are selected on the basis of artistic merit or connoisseurship. Also, a person in charge of a special collection, trained to assist users in locating and interpreting its holdings.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://lu.com/odlis/search.cfm</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#AuthorInstitution">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
+        <dc:identifier>eda2b2d3-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Author Institution</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An author institution is an organization founded and united for a specific purpose where the author has a relationship.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#PublisherInstitution">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
+        <dc:identifier>eda2b2d4-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Publisher Institution</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A publisher institution is an organization founded and united for a specific purpose where the publisher has a relationship.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OrganisationOutputRoles#ExternalOrganisation">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OrganisationOutputRoles"/>
+        <dc:identifier>eda2b2d6-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">External Organisation</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An external organisation an organization founded and united for a specific purpose that is happening or arising or located outside or beyond some limits or especially surface.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=External; http://wordnetweb.princeton.edu/perl/webwn?s=institution</dc:source>
+    </rdf:Description>
 </rdf:RDF>

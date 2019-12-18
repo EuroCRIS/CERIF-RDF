@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>1eb17479-09de-49b8-9fed-1a54d697ea1c</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Infrastructure Statuses</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfEquipment_Classification; cfFacility_Classification; cfService_Classification link entities, being thus research infrastructure states.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#UnderConstruction"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#BeingUpgraded"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#InOperation"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#UnderConstruction">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses"/>
-<dc:identifier>eda2da04-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Under Construction</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#BeingUpgraded">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses"/>
-<dc:identifier>eda2da05-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Being Upgraded</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#InOperation">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses"/>
-<dc:identifier>eda2da06-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In Operation</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>1eb17479-09de-49b8-9fed-1a54d697ea1c</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Infrastructure Statuses</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfEquipment_Classification; cfFacility_Classification; cfService_Classification link entities, being thus research infrastructure states.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#UnderConstruction"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#BeingUpgraded"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#InOperation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#UnderConstruction">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses"/>
+        <dc:identifier>eda2da04-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Under Construction</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#BeingUpgraded">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses"/>
+        <dc:identifier>eda2da05-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Being Upgraded</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses#InOperation">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureStatuses"/>
+        <dc:identifier>eda2da06-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In Operation</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
 </rdf:RDF>

@@ -1,194 +1,194 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>cf7772d0-3477-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Inter-Organisational Structure</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_OrganisationUnit link entity, being thus an inter-organisational structure.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Member"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Manager"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Auditor"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Contractor"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Supporter"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Funder"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Part"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Relation"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Acquisition"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Takeover"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Stakeholder"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Merger"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Successor"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Predecessor"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Spin-Off"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Cooperation"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Member">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>cb3e0010-1cd7-11e1-8bc2-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Member</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, the member role happens e.g. within the relationships person-organisation, person-project; organisation-organisation, that is, the classification term (cfTerm) "Member" identified by its cfClassificationIdentifier (a uuid), and reused with e.g. the cfPerson_OrganisationUnit; cfProject_Person; cfOrganisationUnit_OrganisationUnit relationships. A person can be a member of multiple organisations. An organization can be a member of another organization, or a state that belongs to a group of nations.</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A member is anything that belongs to a set or class.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=member</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Manager">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>79a2e340-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Manager</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, the manager role happens e.g. within the relationships person-organisation or person-project; that is, the classification term (cfTerm) "Manager" identified by its cfClassificationIdentifier (a uuid), and reused with the e.g. cfPerson_OrganisationUnit or cfProject_Person relationships.</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A manager is someone who controls resources and expenditures.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Auditor">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>c9a24a22-d3f2-4b15-aa06-cb512b2f1341</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Auditor</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, auditor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Auditor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An official whose job it is to carefully check the accuracy of business records. An auditor can be either an independent auditor unaffiliated with the company being audited or a captive auditor, and some are elected public officials. The term is sometimes synonymous with "comptroller." Auditors are used to ensure that organizations are maintaining accurate and honest financial records and statements.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.investopedia.com/terms/a/auditor.asp#ixzz238Yb6H7h</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Contractor">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>abf21190-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Contractor</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A contractor is someone (a person or firm) who contracts to build things, (law) a party to a contract.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=contractor</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Supporter">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc5-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Supporter</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A supporter is someone who supports or champions something.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=supporter</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Funder">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Funder</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Individual or organization financing a part or all of a project's cost as a grant, investment, or loan.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.businessdictionary.com/definition/funder.html</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Part">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc1-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Part</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A part is a portion, division, piece, or segment of a whole.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.thefreedictionary.com/part</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Relation">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc2-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Relation</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An abstraction belonging to or characteristic of two entities or parts together.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=Relation</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Acquisition">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc3-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Acquisition</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An acquisition is the act of contracting or assuming or acquiring possession of something</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=acquisition</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Takeover">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc4-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Takeover</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A takeover is a change by sale or merger in the controlling interest of a corporation.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=takeover</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Stakeholder">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc6-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Stakeholder</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A corporate stakeholder is a party that can affect or be affected by the actions of the business as a whole.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Stakeholder_(corporate)</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Merger">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bc7-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Merger</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A merger is a voluntary amalgamation of two firms on roughly equal terms into one new legal entity. Mergers are effected by exchange of the pre-merger stock (shares) for the stock of the new firm. Owners of each pre-merger firm continue as owners, and the resources of the merging entities are pooled for the benefit of the new entity. If the merged entities were competitors, the merger is called horizontal integration, if they were supplier or customer of one another, it is called vertical integration.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.businessdictionary.com/definition/merger.html</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Successor">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bca-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Successor</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A successor is someone who, or something which succeeds or comes after.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Successor</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Predecessor">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bcb-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Predecessor</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Something that precedes and indicates the approach of something or someone.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=predecessor</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Spin-Off">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda28bcc-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Spin-Off</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A spin-out, also known as a spin-off or a starburst, refers to a type of corporate action where a company "splits off" sections of itself as a separate business.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; CASRAI Dictionary</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Corporate_spin-off</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Cooperation">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
-<dc:identifier>eda2b2d7-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Cooperation</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A cooperation is the collaborative work on a common enterprise or project.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>cf7772d0-3477-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Inter-Organisational Structure</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_OrganisationUnit link entity, being thus an inter-organisational structure.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Member"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Manager"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Auditor"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Contractor"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Supporter"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Funder"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Part"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Relation"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Acquisition"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Takeover"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Stakeholder"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Merger"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Successor"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Predecessor"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Spin-Off"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Cooperation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Member">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>cb3e0010-1cd7-11e1-8bc2-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Member</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, the member role happens e.g. within the relationships person-organisation, person-project; organisation-organisation, that is, the classification term (cfTerm) "Member" identified by its cfClassificationIdentifier (a uuid), and reused with e.g. the cfPerson_OrganisationUnit; cfProject_Person; cfOrganisationUnit_OrganisationUnit relationships. A person can be a member of multiple organisations. An organization can be a member of another organization, or a state that belongs to a group of nations.</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A member is anything that belongs to a set or class.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=member</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Manager">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>79a2e340-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Manager</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, the manager role happens e.g. within the relationships person-organisation or person-project; that is, the classification term (cfTerm) "Manager" identified by its cfClassificationIdentifier (a uuid), and reused with the e.g. cfPerson_OrganisationUnit or cfProject_Person relationships.</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A manager is someone who controls resources and expenditures.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Auditor">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>c9a24a22-d3f2-4b15-aa06-cb512b2f1341</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Auditor</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, auditor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Auditor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An official whose job it is to carefully check the accuracy of business records. An auditor can be either an independent auditor unaffiliated with the company being audited or a captive auditor, and some are elected public officials. The term is sometimes synonymous with "comptroller." Auditors are used to ensure that organizations are maintaining accurate and honest financial records and statements.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.investopedia.com/terms/a/auditor.asp#ixzz238Yb6H7h</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Contractor">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>abf21190-1cfc-11e1-8bc2-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Contractor</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A contractor is someone (a person or firm) who contracts to build things, (law) a party to a contract.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=contractor</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Supporter">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc5-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Supporter</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A supporter is someone who supports or champions something.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=supporter</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Funder">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc0-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Funder</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Individual or organization financing a part or all of a project's cost as a grant, investment, or loan.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.businessdictionary.com/definition/funder.html</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Part">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc1-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Part</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A part is a portion, division, piece, or segment of a whole.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.thefreedictionary.com/part</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Relation">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc2-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Relation</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An abstraction belonging to or characteristic of two entities or parts together.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=Relation</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Acquisition">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc3-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Acquisition</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An acquisition is the act of contracting or assuming or acquiring possession of something</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=acquisition</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Takeover">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc4-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Takeover</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A takeover is a change by sale or merger in the controlling interest of a corporation.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=takeover</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Stakeholder">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc6-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Stakeholder</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A corporate stakeholder is a party that can affect or be affected by the actions of the business as a whole.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Stakeholder_(corporate)</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Merger">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bc7-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Merger</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A merger is a voluntary amalgamation of two firms on roughly equal terms into one new legal entity. Mergers are effected by exchange of the pre-merger stock (shares) for the stock of the new firm. Owners of each pre-merger firm continue as owners, and the resources of the merging entities are pooled for the benefit of the new entity. If the merged entities were competitors, the merger is called horizontal integration, if they were supplier or customer of one another, it is called vertical integration.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.businessdictionary.com/definition/merger.html</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Successor">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bca-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Successor</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A successor is someone who, or something which succeeds or comes after.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Successor</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Predecessor">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bcb-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Predecessor</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Something that precedes and indicates the approach of something or someone.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=predecessor</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Spin-Off">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda28bcc-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Spin-Off</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A spin-out, also known as a spin-off or a starburst, refers to a type of corporate action where a company "splits off" sections of itself as a separate business.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; CASRAI Dictionary</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Corporate_spin-off</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure#Cooperation">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/Inter-OrganisationalStructure"/>
+        <dc:identifier>eda2b2d7-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Cooperation</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A cooperation is the collaborative work on a common enterprise or project.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
 </rdf:RDF>

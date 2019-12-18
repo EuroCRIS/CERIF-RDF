@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>1227a225-db7a-444d-a74b-3dd4b438b420</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Electronic Address Types</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfElectronicAddress_Classification link entity, being used as a vocabulary of electronic address types.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#ProfessionalEmail"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#MobilePhone"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Smartphone"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Fixedphone"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#ProfessionalEmail">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
-<dc:identifier>35d43364-2160-4b6c-a487-5019458321e8</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Professional Email</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#MobilePhone">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
-<dc:identifier>44651010-00b1-4543-ae6f-b5983b704742</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MobilePhone</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Smartphone">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
-<dc:identifier>abeddcc6-207b-4b9c-9cec-0de22087b728</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Smartphone</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Fixedphone">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
-<dc:identifier>341b4fcc-9fe4-4760-a9c8-0f36ffa4d614</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Fixedphone</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>1227a225-db7a-444d-a74b-3dd4b438b420</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Electronic Address Types</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfElectronicAddress_Classification link entity, being used as a vocabulary of electronic address types.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#ProfessionalEmail"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#MobilePhone"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Smartphone"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Fixedphone"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#ProfessionalEmail">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
+        <dc:identifier>35d43364-2160-4b6c-a487-5019458321e8</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Professional Email</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#MobilePhone">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
+        <dc:identifier>44651010-00b1-4543-ae6f-b5983b704742</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MobilePhone</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Smartphone">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
+        <dc:identifier>abeddcc6-207b-4b9c-9cec-0de22087b728</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Smartphone</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ElectronicAddressTypes#Fixedphone">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ElectronicAddressTypes"/>
+        <dc:identifier>341b4fcc-9fe4-4760-a9c8-0f36ffa4d614</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Fixedphone</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+    </rdf:Description>
 </rdf:RDF>

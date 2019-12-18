@@ -1,146 +1,146 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>b4de9a8f-3a4d-4233-9a9f-3b624e4ad74f</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person Event Involvements</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfPerson_Event link entity being thus person event involvements.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Participant"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Contributor"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Performer"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Choreographer"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Interviewee"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Speaker"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#PanelParticipant"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#ProgrammeCommitteeMember"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Reporter"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Rapporteur"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#PeerReviewer"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Organiser"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Participant">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>ddc3dd10-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Participant</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, participant is a role e.g. in the person-project relationship; that is, the classification term (cfTerm) "Participant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A participant is someone who takes part in an activity</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=participant</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Contributor">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>e4d7b130-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Contributor</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contributor is a role in e.g. the person-project relationship; that is, the classification term (cfTerm) "Contributor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person contributing (in a generic way) before/during/after an event. An entity responsible for making contributions to the resource.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; CIA project; RMAS Project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary; http://dublincore.org/documents/dces/#contributor</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Performer">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>ee155a46-9850-48aa-98c2-e70ecb0f5d3b</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Performer</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person who performs at an event.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Choreographer">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>92e7478e-5a7c-4c72-a14e-a5770619251e</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Choreographer</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A Choreographer is a person who creates dances. This person decides what the steps will be, and then a dancer performs the steps. Some people have jobs as choreographers. Some people do it just for fun. This person gets to work with a lot of different dancers, including celebrities.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://simple.wikipedia.org/wiki/Choreographer</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Interviewee">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>2b3ba8f1-5620-42c9-8549-7d34ed37f968</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Interviewee</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person that is interviewed at an event.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Speaker">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>d1ee35f1-c4c6-4651-a760-06a3828a61c1</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Speaker</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person that speaks at an event.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#PanelParticipant">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>1ca8d2bc-9424-4df4-ae4b-8ce65239c770</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Panel Participant</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Member of a discussion panel at an event.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#ProgrammeCommitteeMember">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>1869a08e-3257-457b-9278-ed32bd915ee8</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Programme Committee Member</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Member of the group of people who organise and manage the content of the event.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Reporter">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>dc42714f-56de-441f-9161-a51d8edbcb8d</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Reporter</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person to report about the event (e.g. journalist) to the general public.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Rapporteur">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>86bacee1-49d8-429d-97aa-5f4918d3ae88</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Rapporteur</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person to report about the 'technical' content of an event (also implies part of event, e.g. session) for the benefit of people attending or wished to attend (i.e. subject community).</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#PeerReviewer">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>d9a6b8e4-38af-4492-b178-3326173ec657</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Peer Reviewer</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Subject expert reviewing content submissions to inform the process for selection of content at the event. This may also involve feedback to contributors to improve content.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Organiser">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
-<dc:identifier>b4ba809e-60d7-411c-af62-792100c45341</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Organiser</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The person responsible for organizing the event.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>b4de9a8f-3a4d-4233-9a9f-3b624e4ad74f</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person Event Involvements</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfPerson_Event link entity being thus person event involvements.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Participant"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Contributor"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Performer"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Choreographer"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Interviewee"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Speaker"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#PanelParticipant"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#ProgrammeCommitteeMember"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Reporter"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Rapporteur"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#PeerReviewer"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements#Organiser"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Participant">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>ddc3dd10-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Participant</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, participant is a role e.g. in the person-project relationship; that is, the classification term (cfTerm) "Participant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A participant is someone who takes part in an activity</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=participant</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Contributor">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>e4d7b130-1cfd-11e1-8bc2-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Contributor</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF terms, contributor is a role in e.g. the person-project relationship; that is, the classification term (cfTerm) "Contributor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person contributing (in a generic way) before/during/after an event. An entity responsible for making contributions to the resource.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; CIA project; RMAS Project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary; http://dublincore.org/documents/dces/#contributor</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Performer">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>ee155a46-9850-48aa-98c2-e70ecb0f5d3b</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Performer</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A person who performs at an event.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Choreographer">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>92e7478e-5a7c-4c72-a14e-a5770619251e</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Choreographer</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A Choreographer is a person who creates dances. This person decides what the steps will be, and then a dancer performs the steps. Some people have jobs as choreographers. Some people do it just for fun. This person gets to work with a lot of different dancers, including celebrities.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://simple.wikipedia.org/wiki/Choreographer</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Interviewee">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>2b3ba8f1-5620-42c9-8549-7d34ed37f968</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Interviewee</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person that is interviewed at an event.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Speaker">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>d1ee35f1-c4c6-4651-a760-06a3828a61c1</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Speaker</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person that speaks at an event.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#PanelParticipant">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>1ca8d2bc-9424-4df4-ae4b-8ce65239c770</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Panel Participant</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Member of a discussion panel at an event.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#ProgrammeCommitteeMember">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>1869a08e-3257-457b-9278-ed32bd915ee8</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Programme Committee Member</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Member of the group of people who organise and manage the content of the event.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Reporter">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>dc42714f-56de-441f-9161-a51d8edbcb8d</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Reporter</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person to report about the event (e.g. journalist) to the general public.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Rapporteur">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>86bacee1-49d8-429d-97aa-5f4918d3ae88</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Rapporteur</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Person to report about the 'technical' content of an event (also implies part of event, e.g. session) for the benefit of people attending or wished to attend (i.e. subject community).</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#PeerReviewer">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>d9a6b8e4-38af-4492-b178-3326173ec657</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Peer Reviewer</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Subject expert reviewing content submissions to inform the process for selection of content at the event. This may also involve feedback to contributors to improve content.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CIA project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/PersonEventInvolvements#Organiser">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/PersonEventInvolvements"/>
+        <dc:identifier>b4ba809e-60d7-411c-af62-792100c45341</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Organiser</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The person responsible for organizing the event.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS Vocabulary</dc:source>
+    </rdf:Description>
 </rdf:RDF>

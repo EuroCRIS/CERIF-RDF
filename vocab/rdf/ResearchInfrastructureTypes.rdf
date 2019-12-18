@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>759af93d-34ae-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Infrastructure Types</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfEquipment_Classification, cfService_Classification, cfFacility_Classification link entities, being thus infrastructure types.</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Distributed"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Network"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Virtual"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Cluster"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Singlelocation"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Distributed">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
-<dc:identifier>eda2d9f9-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Distributed</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A distributed RI is constituted by geographically distributed implementations/facilities but managed by a single body. Thus, a distributed RI is thus considered as a single RI, modelled in CERIF as a tree of facilities connected to the Facility entity representing the entire RI via recursive cfFacility_Facility relationships with appropriate semantics (e.g. isPartOf) while the RI is connected with its managing body through the cfOrgUnit_Facil link entity.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Network">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
-<dc:identifier>eda2d9fa-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Network</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A network of RIs comprises several RIs connected in some respect, but each one with its own governance/management body. The relationships between RIs in a network are modelled in CERIF using the CERIF Semantic Layer reference from within the cfFacil_Class link entity (Class=Network, role expression is a network).</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Virtual">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
-<dc:identifier>eda2d9fb-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Virtual</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A virtual RI is defined as e-infrastructure, either a distributed e‐infrastructure that connects several RIs (databases, HP computers, facilities, etc) or a single‐sited electronic RI (e-library, e-archive, data repository, etc).  </dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Cluster">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
-<dc:identifier>eda2d9fc-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Cluster</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A cluster is a grouping of RIs based on certain similarities (scientific domain, geographical region). A cluster of RIs may be supported in some way or funded, e.g. by industry entities. A cluster is modelled in CERIF as a virtual organisation through the cfOrgUnit entity connected with the individual RIs belonging to the cluster with a cfOrgUnit_Facil link entity.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Singlelocation">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
-<dc:identifier>eda2d9fd-34c5-11e1-b86c-0800200c9a66</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Single location</rdfs:label>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>759af93d-34ae-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Infrastructure Types</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfEquipment_Classification, cfService_Classification, cfFacility_Classification link entities, being thus infrastructure types.</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Distributed"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Network"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Virtual"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Cluster"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Singlelocation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Distributed">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
+        <dc:identifier>eda2d9f9-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Distributed</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A distributed RI is constituted by geographically distributed implementations/facilities but managed by a single body. Thus, a distributed RI is thus considered as a single RI, modelled in CERIF as a tree of facilities connected to the Facility entity representing the entire RI via recursive cfFacility_Facility relationships with appropriate semantics (e.g. isPartOf) while the RI is connected with its managing body through the cfOrgUnit_Facil link entity.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Network">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
+        <dc:identifier>eda2d9fa-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Network</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A network of RIs comprises several RIs connected in some respect, but each one with its own governance/management body. The relationships between RIs in a network are modelled in CERIF using the CERIF Semantic Layer reference from within the cfFacil_Class link entity (Class=Network, role expression is a network).</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Virtual">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
+        <dc:identifier>eda2d9fb-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Virtual</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A virtual RI is defined as e-infrastructure, either a distributed e‐infrastructure that connects several RIs (databases, HP computers, facilities, etc) or a single‐sited electronic RI (e-library, e-archive, data repository, etc).  </dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Cluster">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
+        <dc:identifier>eda2d9fc-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Cluster</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A cluster is a grouping of RIs based on certain similarities (scientific domain, geographical region). A cluster of RIs may be supported in some way or funded, e.g. by industry entities. A cluster is modelled in CERIF as a virtual organisation through the cfOrgUnit entity connected with the individual RIs belonging to the cluster with a cfOrgUnit_Facil link entity.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes#Singlelocation">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchInfrastructureTypes"/>
+        <dc:identifier>eda2d9fd-34c5-11e1-b86c-0800200c9a66</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Single location</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MERIL project</dc:source>
+    </rdf:Description>
 </rdf:RDF>

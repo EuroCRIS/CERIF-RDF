@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>1332d166-4c65-481b-adde-aac0bdc475a3</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Output Quality Levels</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">If a quality level has been assigned to an output, then this is the assessment of the level of quality on the REF scale (http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/)</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#PendingGrading"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#4-Star"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#3-Star"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#2-Star"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#1-Star"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#Unclassified"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#PendingGrading">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
-<dc:identifier>19258084-7068-4be1-8cfd-171952060f0c</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Pending Grading</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An assessment has yet to be made of the quality level of the output.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#4-Star">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
-<dc:identifier>f9237eb5-a5c9-433f-887d-e2eac703bc18</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">4-Star</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is world-leading in terms of originality, significance and rigour.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#3-Star">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
-<dc:identifier>9e93db57-3349-4bb9-bfba-9481302b4784</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">3-Star</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is internationally excellent in terms of originality, significance and rigour but which falls short of the highest standards of excellence.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#2-Star">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
-<dc:identifier>7f1998ce-ddfa-4ece-af02-2eed9a48c8d2</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">2-Star</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is recognised internationally in terms of originality, significance and rigour.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#1-Star">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
-<dc:identifier>89644214-e41f-4c30-befb-ab5d9443c08b</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">1-Star</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is recognised nationally in terms of originality, significance and rigour.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#Unclassified">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
-<dc:identifier>7ea05f8e-bd27-4f33-bfa4-54dfb3e6f905</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Unclassified</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that falls below the standard of nationally recognised work. Or work which does not meet the published definition of research for the purposes of this assessment.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>1332d166-4c65-481b-adde-aac0bdc475a3</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Output Quality Levels</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">If a quality level has been assigned to an output, then this is the assessment of the level of quality on the REF scale (http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/)</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#PendingGrading"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#4-Star"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#3-Star"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#2-Star"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#1-Star"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels#Unclassified"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#PendingGrading">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
+        <dc:identifier>19258084-7068-4be1-8cfd-171952060f0c</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Pending Grading</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">An assessment has yet to be made of the quality level of the output.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#4-Star">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
+        <dc:identifier>f9237eb5-a5c9-433f-887d-e2eac703bc18</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">4-Star</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is world-leading in terms of originality, significance and rigour.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#3-Star">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
+        <dc:identifier>9e93db57-3349-4bb9-bfba-9481302b4784</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">3-Star</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is internationally excellent in terms of originality, significance and rigour but which falls short of the highest standards of excellence.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#2-Star">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
+        <dc:identifier>7f1998ce-ddfa-4ece-af02-2eed9a48c8d2</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">2-Star</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is recognised internationally in terms of originality, significance and rigour.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#1-Star">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
+        <dc:identifier>89644214-e41f-4c30-befb-ab5d9443c08b</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">1-Star</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that is recognised nationally in terms of originality, significance and rigour.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/OutputQualityLevels#Unclassified">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/OutputQualityLevels"/>
+        <dc:identifier>7ea05f8e-bd27-4f33-bfa4-54dfb3e6f905</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Unclassified</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Quality that falls below the standard of nationally recognised work. Or work which does not meet the published definition of research for the purposes of this assessment.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">REF 2014; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</dc:source>
+    </rdf:Description>
 </rdf:RDF>

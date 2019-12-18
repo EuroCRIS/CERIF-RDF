@@ -1,268 +1,268 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>bccb3266-689d-4740-a039-c96594b4d916</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Identifier Types</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfFederatedIdentifier_Classification link entity, being thus a vocabulary of current authority identifiers (extensible and meant as a first start).</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#DOI"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#PMCID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ISI-Number"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAffiliationID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAuthorID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ORCID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#INSTID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#STAFFID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#HUSID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ResearcherID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#UKPRN"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#URI"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#URL"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#HR-ID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Project-MM-ID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Repository-ID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Finance-ID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#CRIS-ID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#DNR"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ISNI"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#UUID"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Handle"/>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#VATIdentificationNumber"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#DOI">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>31d222b4-11e0-434b-b5ae-088119c51189</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">DOI</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Digital Object Identifier</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.doi.org/doi_handbook/Glossary.html</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#PMCID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>56f4fdbc-39a7-42cd-bd35-9d0d8c95f6da</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">PMCID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">PubMed Central ID</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.research.ucla.edu/ora/training/documents/Nov-10/5.pdf</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ISI-Number">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>008f9358-61db-46e2-8157-beb55e972aa6</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ISI-Number</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ISI Web Of Knowledge Number</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAffiliationID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>fafa2259-304e-4aa4-8419-f84b9cf6f2eb</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ScopusAffiliationID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Scopus Affiliation Identifier</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.info.sciverse.com/scopus/scopus-in-detail/tools/affiliationidentifier</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAuthorID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>24ddadbc-9b33-40c5-9d25-73b055f0183a</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ScopusAuthorID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Scopus Author Identifier</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.info.sciverse.com/scopus/scopus-in-detail/tools/authoridentifier</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ORCID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>716bcc9a-c9dd-4b8b-b4ab-6c140e578ec3</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ORCID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Open Researcher &amp; Contributor ID</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ORCID is an international, interdisciplinary, open, and not-for-profit organization created for the benefit of all stakeholders, including research institutions, funding organizations, publishers, and researchers to enhance the scientific discovery process and improve collaboration and the efficiency of research funding.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://about.orcid.org/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#INSTID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>872e7b38-e11b-4b0f-b68b-6c6279c92e53</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">INSTID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HESA Institution Identifier</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The institution identifier of the reporting institution. The institution is identified by two fields, field 2, HESA institution identifier (a four digit number relating to the institution) and field 3, Campus identifier, a single alphanumeric character. The Campus identifier character 'A' will be designated the default for the whole institution.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.hesa.ac.uk/index.php?option=com_collns&amp;task=show_manuals&amp;Itemid=233&amp;r=96011&amp;f=2</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#STAFFID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>c0071785-549a-4379-a2af-d9a978ea3a1e</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">STAFFID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HESA Staff Identifier</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The Staff identifier is a unique code allocated to a staff member when they are first entered onto the staff record and, where a member of staff is contracted to work in jobs classified in SOC groups 1,2 or 3, it stays with them for the whole of their career within HE.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.hesa.ac.uk/component/option,com_collns/task,show_manuals/Itemid,233/r,08025/f,003/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#HUSID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>68e498fb-c8ee-4a08-a647-b191df5cac39</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HUSID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HESA Student Identifier</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The Student identifier is to be unique to each student. It is intended that the identifier is to be transferred with the student to each institution of higher education he/she may attend. The medium term objective is that the use of this number will allow the accurate tracking of students throughout their life within the sector for which HESA collects data.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.hesa.ac.uk/index.php?option=com_collns&amp;Itemid=233&amp;task=show_manuals&amp;r=96011&amp;f=004</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ResearcherID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>b4a7caf0-5257-411e-accc-d1ee70d2f701</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ResearcherID</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ResearcherID by Thomson Reuters.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.researcherid.com/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#UKPRN">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>39436e26-6d68-4b5a-8ba1-d002a979fdea</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">UKPRN</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">UK Provider Reference Number</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The UK Register of Learning Providers is a 'one-stop' portal to be used by government departments, agencies, learners, and employers to share key information about learning providers. The UKRLP allows providers to update their information in one place and share this across agencies such as the Skills Funding Agency, the Higher Education Statistics Agency (HESA), the Higher Education Funding Council for England (HEFCE) and UCAS. Since provider registration opened on 1st August 2005, the UKRLP has grown to over 25,000 providers. Each of these has been verified against a recognised external source and has been allocated a UK Provider Reference Number (UKPRN). This is the unique identifier used to share information with the UKRLP partner agencies.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HEFCE</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ukrlp.co.uk/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#URI">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>f2dc329b-f47e-4876-9ceb-b190c19aca98</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">URI</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Uniform Resource Identifier</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Uniform_resource_identifier</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#URL">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>7f65458e-00de-4eaf-8109-01e517790a2c</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">URL</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Uniform Resource Locator</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Uniform_resource_locator</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#HR-ID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>ba36c17a-c056-4d7b-aa26-b62bb04cdfc6</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HR-ID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the HR system.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Project-MM-ID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>b52eef12-0dca-4496-ae86-9389de0437f6</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Project-MM-ID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the project management system</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Repository-ID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>c02711cd-7cfb-4b20-ba2e-15c8c1179a05</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Repository-ID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the repository.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Finance-ID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>7916dbe8-9264-4810-92df-7c21ab733338</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Finance-ID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the finance system.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#CRIS-ID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>708d9118-c4dd-4813-8ff7-b43bf0a493b0</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRIS-ID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the CRIS.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#DNR">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>e093fb4c-4d5e-4602-8878-22e7dc360c36</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">DNR</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Diari-Number in Sweden.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ISNI">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>c7e9afa5-02ce-4222-88f8-b717051fed39</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ISNI</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">International Standard Name Identifier</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The International Standard Name Identifier (ISNI) is an ISO Standard (ISO 27729) whose scope is the identification of Public Identities of parties: that is, the identities used publicly by parties involved throughout the media content industries in the creation, production, management, and content distribution chains. The ISNI system uniquely identifies Public Identities across multiple fields of creative activity. The ISNI provides a tool for disambiguating Public Identities that might otherwise be confused. ISNI is not intended to provide direct access to comprehensive information about a Public Identity but can provide links to other systems where such information is held.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.isni.org/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#UUID">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>e0d3ce71-2d85-4b6b-8103-636276d31c1d</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">UUID</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Unique Universal Identifier</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Universally_unique_identifier</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Handle">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>baaa59e1-745b-46e3-b068-aaa3dae9eef9</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Handle</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The Handle System provides efficient, extensible, and secure resolution services for unique and persistent identifiers of digital objects, and is a component of CNRI's Digital Object Architecture. Digital Object Architecture provides a means of managing digital information in a network environment. A digital object has a machine and platform independent structure that allows it to be identified, accessed and protected, as appropriate. A digital object may incorporate not only informational elements, i.e., a digitized version of a paper, movie or sound recording, but also the unique identifier of the digital object and other metadata about the digital object. The metadata may include restrictions on access to digital objects, notices of ownership, and identifiers for licensing agreements, if appropriate.</dc:description>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.handle.net/</dc:source>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#VATIdentificationNumber">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
-<dc:identifier>634197d9-3a2e-4df7-b982-18b41a7e6f24</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">VAT Identification Number</rdfs:label>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A value added tax identification number or VAT identification number (VATIN) is an identifier used in many countries, including the countries of the European Union, for value added tax purposes.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/VAT_identification_number</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>bccb3266-689d-4740-a039-c96594b4d916</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Identifier Types</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme contains CERIF vocabulary terms applicable in the cfFederatedIdentifier_Classification link entity, being thus a vocabulary of current authority identifiers (extensible and meant as a first start).</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#DOI"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#PMCID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ISI-Number"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAffiliationID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAuthorID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ORCID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#INSTID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#STAFFID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#HUSID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ResearcherID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#UKPRN"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#URI"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#URL"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#HR-ID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Project-MM-ID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Repository-ID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Finance-ID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#CRIS-ID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#DNR"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#ISNI"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#UUID"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#Handle"/>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes#VATIdentificationNumber"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#DOI">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>31d222b4-11e0-434b-b5ae-088119c51189</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">DOI</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Digital Object Identifier</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.doi.org/doi_handbook/Glossary.html</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#PMCID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>56f4fdbc-39a7-42cd-bd35-9d0d8c95f6da</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">PMCID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">PubMed Central ID</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.research.ucla.edu/ora/training/documents/Nov-10/5.pdf</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ISI-Number">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>008f9358-61db-46e2-8157-beb55e972aa6</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ISI-Number</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ISI Web Of Knowledge Number</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAffiliationID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>fafa2259-304e-4aa4-8419-f84b9cf6f2eb</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ScopusAffiliationID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Scopus Affiliation Identifier</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.info.sciverse.com/scopus/scopus-in-detail/tools/affiliationidentifier</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAuthorID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>24ddadbc-9b33-40c5-9d25-73b055f0183a</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ScopusAuthorID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Scopus Author Identifier</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.info.sciverse.com/scopus/scopus-in-detail/tools/authoridentifier</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ORCID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>716bcc9a-c9dd-4b8b-b4ab-6c140e578ec3</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ORCID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Open Researcher &amp; Contributor ID</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ORCID is an international, interdisciplinary, open, and not-for-profit organization created for the benefit of all stakeholders, including research institutions, funding organizations, publishers, and researchers to enhance the scientific discovery process and improve collaboration and the efficiency of research funding.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRISPool project; RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://about.orcid.org/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#INSTID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>872e7b38-e11b-4b0f-b68b-6c6279c92e53</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">INSTID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HESA Institution Identifier</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The institution identifier of the reporting institution. The institution is identified by two fields, field 2, HESA institution identifier (a four digit number relating to the institution) and field 3, Campus identifier, a single alphanumeric character. The Campus identifier character 'A' will be designated the default for the whole institution.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.hesa.ac.uk/index.php?option=com_collns&amp;task=show_manuals&amp;Itemid=233&amp;r=96011&amp;f=2</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#STAFFID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>c0071785-549a-4379-a2af-d9a978ea3a1e</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">STAFFID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HESA Staff Identifier</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The Staff identifier is a unique code allocated to a staff member when they are first entered onto the staff record and, where a member of staff is contracted to work in jobs classified in SOC groups 1,2 or 3, it stays with them for the whole of their career within HE.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.hesa.ac.uk/component/option,com_collns/task,show_manuals/Itemid,233/r,08025/f,003/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#HUSID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>68e498fb-c8ee-4a08-a647-b191df5cac39</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HUSID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HESA Student Identifier</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The Student identifier is to be unique to each student. It is intended that the identifier is to be transferred with the student to each institution of higher education he/she may attend. The medium term objective is that the use of this number will allow the accurate tracking of students throughout their life within the sector for which HESA collects data.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.hesa.ac.uk/index.php?option=com_collns&amp;Itemid=233&amp;task=show_manuals&amp;r=96011&amp;f=004</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ResearcherID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>b4a7caf0-5257-411e-accc-d1ee70d2f701</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ResearcherID</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ResearcherID by Thomson Reuters.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.researcherid.com/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#UKPRN">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>39436e26-6d68-4b5a-8ba1-d002a979fdea</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">UKPRN</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">UK Provider Reference Number</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The UK Register of Learning Providers is a 'one-stop' portal to be used by government departments, agencies, learners, and employers to share key information about learning providers. The UKRLP allows providers to update their information in one place and share this across agencies such as the Skills Funding Agency, the Higher Education Statistics Agency (HESA), the Higher Education Funding Council for England (HEFCE) and UCAS. Since provider registration opened on 1st August 2005, the UKRLP has grown to over 25,000 providers. Each of these has been verified against a recognised external source and has been allocated a UK Provider Reference Number (UKPRN). This is the unique identifier used to share information with the UKRLP partner agencies.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HEFCE</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.ukrlp.co.uk/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#URI">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>f2dc329b-f47e-4876-9ceb-b190c19aca98</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">URI</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Uniform Resource Identifier</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Uniform_resource_identifier</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#URL">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>7f65458e-00de-4eaf-8109-01e517790a2c</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">URL</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Uniform Resource Locator</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Uniform_resource_locator</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#HR-ID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>ba36c17a-c056-4d7b-aa26-b62bb04cdfc6</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">HR-ID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the HR system.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Project-MM-ID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>b52eef12-0dca-4496-ae86-9389de0437f6</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Project-MM-ID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the project management system</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Repository-ID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>c02711cd-7cfb-4b20-ba2e-15c8c1179a05</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Repository-ID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the repository.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Finance-ID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>7916dbe8-9264-4810-92df-7c21ab733338</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Finance-ID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the finance system.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#CRIS-ID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>708d9118-c4dd-4813-8ff7-b43bf0a493b0</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CRIS-ID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The ID as recorded in the CRIS.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">RMAS project</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#DNR">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>e093fb4c-4d5e-4602-8878-22e7dc360c36</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">DNR</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Diari-Number in Sweden.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#ISNI">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>c7e9afa5-02ce-4222-88f8-b717051fed39</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ISNI</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">International Standard Name Identifier</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The International Standard Name Identifier (ISNI) is an ISO Standard (ISO 27729) whose scope is the identification of Public Identities of parties: that is, the identities used publicly by parties involved throughout the media content industries in the creation, production, management, and content distribution chains. The ISNI system uniquely identifies Public Identities across multiple fields of creative activity. The ISNI provides a tool for disambiguating Public Identities that might otherwise be confused. ISNI is not intended to provide direct access to comprehensive information about a Public Identity but can provide links to other systems where such information is held.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.isni.org/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#UUID">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>e0d3ce71-2d85-4b6b-8103-636276d31c1d</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">UUID</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Unique Universal Identifier</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/Universally_unique_identifier</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#Handle">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>baaa59e1-745b-46e3-b068-aaa3dae9eef9</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Handle</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The Handle System provides efficient, extensible, and secure resolution services for unique and persistent identifiers of digital objects, and is a component of CNRI's Digital Object Architecture. Digital Object Architecture provides a means of managing digital information in a network environment. A digital object has a machine and platform independent structure that allows it to be identified, accessed and protected, as appropriate. A digital object may incorporate not only informational elements, i.e., a digitized version of a paper, movie or sound recording, but also the unique identifier of the digital object and other metadata about the digital object. The metadata may include restrictions on access to digital objects, notices of ownership, and identifiers for licensing agreements, if appropriate.</dc:description>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://www.handle.net/</dc:source>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/IdentifierTypes#VATIdentificationNumber">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/IdentifierTypes"/>
+        <dc:identifier>634197d9-3a2e-4df7-b982-18b41a7e6f24</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">VAT Identification Number</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">A value added tax identification number or VAT identification number (VATIN) is an identifier used in many countries, including the countries of the European Union, for value added tax purposes.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://en.wikipedia.org/wiki/VAT_identification_number</dc:source>
+    </rdf:Description>
 </rdf:RDF>

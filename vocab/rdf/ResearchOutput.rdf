@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="https://w3id.org/cerif/vocab/">
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchOutput">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-<dc:identifier>6832797c-2f56-4336-b4ff-dc0ba2275dfa</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Output</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme defines the CERIF concept of "Research Output" composed through the link entities cfResultPublication_Classification, cfResultPatent_Classification, cfResultProduct_Classification</dc:description>
-<skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchOutput#ResearchOutput"/>
-</rdf:Description>
-<rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchOutput#ResearchOutput">
-<rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-<skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchOutput"/>
-<dc:identifier>627e286f-a8ae-46c6-891e-0218e6b2f1a8</dc:identifier>
-<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Output</rdfs:label>
-<dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF, the concept of research output is defined as a term in the vocabulary. Research output in CERIF terms subsumes results such as publications cfResultPublication (cfResPubl), patent cfResultPatent (cfResPat) and product cfResultProduct (cfResProd); these are logic and physic enitites in the CERIF data model.</dc:description>
-<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The act of becoming formally connected or joined; a social or business relationship.</skos:definition>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; HEFCE REF2014 Output Information Requirements; RMAS Vocabulary; CASRAI Dictionary</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
-<dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=affiliation</dc:source>
-</rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchOutput">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassificationScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:identifier>6832797c-2f56-4336-b4ff-dc0ba2275dfa</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Output</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">This scheme defines the CERIF concept of "Research Output" composed through the link entities cfResultPublication_Classification, cfResultPatent_Classification, cfResultProduct_Classification</dc:description>
+        <skos:hasTopConcept rdf:resource="https://w3id.org/cerif/vocab/ResearchOutput#ResearchOutput"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/cerif/vocab/ResearchOutput#ResearchOutput">
+        <rdf:type rdf:resource="https://w3id.org/cerif/model#cfClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:topConceptOf rdf:resource="https://w3id.org/cerif/vocab/ResearchOutput"/>
+        <dc:identifier>627e286f-a8ae-46c6-891e-0218e6b2f1a8</dc:identifier>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Research Output</rdfs:label>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">In CERIF, the concept of research output is defined as a term in the vocabulary. Research output in CERIF terms subsumes results such as publications cfResultPublication (cfResPubl), patent cfResultPatent (cfResPat) and product cfResultProduct (cfResProd); these are logic and physic enitites in the CERIF data model.</dc:description>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">The act of becoming formally connected or joined; a social or business relationship.</skos:definition>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group; HEFCE REF2014 Output Information Requirements; RMAS Vocabulary; CASRAI Dictionary</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">CERIF Task Group</dc:source>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">http://wordnetweb.princeton.edu/perl/webwn?s=affiliation</dc:source>
+    </rdf:Description>
 </rdf:RDF>
